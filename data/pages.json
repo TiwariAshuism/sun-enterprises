@@ -1,0 +1,265 @@
+{
+    "contact": {
+        "meta": {
+            "title": "Contact: Let's Connect | Sun Enterprises",
+            "description": "Get in touch with Sun Enterprises for agricultural solutions"
+        },
+        "hero": {
+            "headline": "Let's talk about the",
+            "highlightedWord": "future",
+            "subheadline": "Have a question or looking to transform your agricultural operations? Our team is here to help you scale sustainably."
+        },
+        "contactDetails": [
+            {
+                "label": "Email",
+                "value": "connect@sunenterprises.agri"
+            },
+            {
+                "label": "Office",
+                "value": "Global HQ - Sustainable Valley, CA"
+            },
+            {
+                "label": "Social",
+                "links": [
+                    {
+                        "text": "LinkedIn",
+                        "href": "#"
+                    },
+                    {
+                        "text": "Twitter",
+                        "href": "#"
+                    }
+                ]
+            }
+        ],
+        "form": {
+            "title": "Get in touch",
+            "fields": [
+                {
+                    "name": "fullName",
+                    "label": "Full Name",
+                    "type": "text",
+                    "placeholder": "Enter your full name"
+                },
+                {
+                    "name": "email",
+                    "label": "Email Address",
+                    "type": "email",
+                    "placeholder": "hello@example.com"
+                },
+                {
+                    "name": "subject",
+                    "label": "Subject",
+                    "type": "select",
+                    "options": [
+                        "Agricultural Consulting",
+                        "Software Licensing",
+                        "Sustainability Audit",
+                        "General Inquiry"
+                    ]
+                },
+                {
+                    "name": "message",
+                    "label": "Message",
+                    "type": "textarea",
+                    "placeholder": "Tell us about your project...",
+                    "rows": 4
+                }
+            ],
+            "submitText": "Send Message"
+        }
+    },
+    "about": {
+        "meta": {
+            "title": "About Sun Enterprises | Driven by the Sun",
+            "description": "Learn about our mission to harmonize technology with earth's natural rhythms"
+        },
+        "hero": {
+            "title": "Driven by the Sun.",
+            "subtitle": "We are redefining the future of agriculture through solar-first technology and autonomous sustainability.",
+            "backgroundImage": "/images/about-hero.jpg"
+        },
+        "mission": {
+            "title": "Our mission is to harmonize technology with the earth's natural rhythms.",
+            "description": "At Sun Enterprises, we believe the solution to global food security isn't just about planting more; it's about growing smarter. By harnessing the infinite energy of the sun, we power a new generation of farming equipment that leaves zero carbon footprint."
+        },
+        "timeline": [
+            {
+                "year": "2010",
+                "title": "The Seed is Planted",
+                "description": "Founded in a small garage in California, we began with a single goal: creating a solar-powered irrigation pump for local farmers."
+            },
+            {
+                "year": "2014",
+                "title": "First Solar-Agri Project",
+                "description": "Launched the Helios-1, the world's first fully autonomous solar tractor, reducing operational costs by 60% for mid-sized farms."
+            },
+            {
+                "year": "2018",
+                "title": "AgriTech Innovation Award",
+                "description": "Recognized by the World Economic Forum for our contributions to sustainable land management through satellite AI and solar sensors."
+            },
+            {
+                "year": "2023",
+                "title": "Global Expansion",
+                "description": "Now operating in 14 countries, managing over 1 million hectares with zero-emission technology."
+            }
+        ],
+        "leadership": {
+            "title": "Our Leadership",
+            "subtitle": "The minds behind the movement.",
+            "ctaText": "See All Team",
+            "team": [
+                {
+                    "name": "David Chen",
+                    "role": "Founder & CEO",
+                    "bio": "A pioneer in renewable energy systems with 15+ years of experience in silicon-valley agricultural tech.",
+                    "image": "/images/about-story.jpg"
+                },
+                {
+                    "name": "Sarah Williams",
+                    "role": "Chief Sustainability Officer",
+                    "bio": "Former Director of Environmental Policy, Sarah ensures every Sun Enterprise product improves the local ecosystem.",
+                    "image": "/images/about-mission.jpg"
+                },
+                {
+                    "name": "Marcus Thorne",
+                    "role": "Head of Engineering",
+                    "bio": "The architect behind the Helios autonomous platform and our proprietary AI-mesh soil monitoring network.",
+                    "image": "/images/technology-bento-1.jpg"
+                }
+            ]
+        },
+        "impact": {
+            "stats": [
+                {
+                    "value": "1.2M",
+                    "label": "Hectares Monitored"
+                },
+                {
+                    "value": "14k",
+                    "label": "Active Systems"
+                },
+                {
+                    "value": "0%",
+                    "label": "Carbon Footprint"
+                },
+                {
+                    "value": "500+",
+                    "label": "Global Patents"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Ready to harvest the future?",
+            "subtitle": "Join us in revolutionizing the way we feed the world.",
+            "buttons": [
+                {
+                    "text": "Work with Us",
+                    "type": "primary"
+                },
+                {
+                    "text": "Our Solutions",
+                    "type": "secondary"
+                }
+            ]
+        }
+    },
+    "technology": {
+        "meta": {
+            "title": "Sun Enterprises | Technology",
+            "description": "Engineering a sustainable future through precision solar-powered sensor technology"
+        },
+        "hero": {
+            "title": "The Intelligence Behind the Harvest.",
+            "subtitle": "Engineering a sustainable future through precision solar-powered sensor technology and adaptive AI analytics.",
+            "productImage": "/images/technology-product.jpg",
+            "badges": [
+                "Titanium Grade 5",
+                "Solar Powered"
+            ]
+        },
+        "intelligence": {
+            "title": "Smart Crop Intelligence.",
+            "subtitle": "Deep learning algorithms process real-time soil and atmospheric data to predict yields with 99% accuracy.",
+            "features": {
+                "main": {
+                    "icon": "psychology",
+                    "title": "Neural Engine",
+                    "description": "Edge computing that processes terabytes of data locally, reducing latency and bandwidth.",
+                    "image": "/images/technology-bento-2.jpg"
+                },
+                "secondary": {
+                    "icon": "water_drop",
+                    "title": "Hydration Map",
+                    "description": "Precise moisture monitoring down to the millimeter.",
+                    "image": "/images/technology-bento-3.jpg"
+                },
+                "small": [
+                    {
+                        "title": "5G",
+                        "subtitle": "Connectivity",
+                        "description": "Seamless global roaming across all major networks."
+                    },
+                    {
+                        "icon": "solar_power",
+                        "subtitle": "Efficiency",
+                        "description": "Zero Carbon Footprint",
+                        "highlighted": true
+                    }
+                ]
+            }
+        },
+        "solarYield": {
+            "backgroundText": "SOLAR YIELD",
+            "title": "Efficiency redefined.",
+            "description": "Our proprietary SunTrack™ technology tilts the sensor's micro-panels to capture 40% more solar energy than static systems.",
+            "features": [
+                {
+                    "category": "Storage",
+                    "title": "Solid-State Battery",
+                    "description": "Lasts up to 10 years without degradation, even in extreme soil salinity."
+                },
+                {
+                    "category": "Optimization",
+                    "title": "Dynamic Tilting",
+                    "description": "Adaptive micro-servos ensure optimal solar angle from dawn to dusk."
+                },
+                {
+                    "category": "Monitoring",
+                    "title": "24/7 Diagnostics",
+                    "description": "Continuous self-health checks ensure 99.9% hardware uptime."
+                }
+            ]
+        },
+        "specs": {
+            "title": "Technical Specifications",
+            "items": [
+                {
+                    "label": "Materials",
+                    "value": "Recycled Aerospace Grade Titanium",
+                    "detail": "Impact-resistant sapphire glass solar cover."
+                },
+                {
+                    "label": "Sensors",
+                    "value": "Multi-Spectrum Soil Probe",
+                    "detail": "NPK (Nitrogen, Phosphorus, Potassium), pH, EC, Moisture, Temperature."
+                },
+                {
+                    "label": "Dimensions",
+                    "value": "180mm x 45mm x 45mm",
+                    "detail": "Weight: 240g. Probe depth: 150mm."
+                },
+                {
+                    "label": "Operating Range",
+                    "value": "-20°C to +75°C",
+                    "detail": "IP68 certified water and dust resistance."
+                }
+            ],
+            "cta": {
+                "text": "Detailed datasheet available for enterprise partners.",
+                "buttonText": "Download Whitepaper"
+            }
+        }
+    }
+}

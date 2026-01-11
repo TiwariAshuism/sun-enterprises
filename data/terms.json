@@ -1,0 +1,120 @@
+{
+    "header": {
+        "title": "Terms of Service",
+        "lastUpdated": "January 11, 2026",
+        "intro": "Welcome to Sun Enterprises. By accessing or using our services, you agree to be bound by these Terms of Service. Please read them carefully."
+    },
+    "sidebar": {
+        "title": "Sections",
+        "links": [
+            {
+                "label": "Acceptance of Terms",
+                "href": "#acceptance",
+                "icon": "handshake"
+            },
+            {
+                "label": "Use of Services",
+                "href": "#use",
+                "icon": "devices"
+            },
+            {
+                "label": "User Accounts",
+                "href": "#accounts",
+                "icon": "person"
+            },
+            {
+                "label": "Intellectual Property",
+                "href": "#ip",
+                "icon": "copyright"
+            },
+            {
+                "label": "Liability",
+                "href": "#liability",
+                "icon": "gavel"
+            },
+            {
+                "label": "Termination",
+                "href": "#termination",
+                "icon": "cancel"
+            },
+            {
+                "label": "Modifications",
+                "href": "#modifications",
+                "icon": "edit"
+            },
+            {
+                "label": "Governing Law",
+                "href": "#law",
+                "icon": "balance"
+            }
+        ],
+        "contact": {
+            "text": "Legal questions?",
+            "email": "legal@sunenterprises.com"
+        }
+    },
+    "sections": [
+        {
+            "id": "acceptance",
+            "number": "1.",
+            "title": "Acceptance of Terms",
+            "content": "By accessing or using Sun Enterprises' platform, products, or services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our services."
+        },
+        {
+            "id": "use",
+            "number": "2.",
+            "title": "Use of Services",
+            "content": "You agree to use our services only for lawful purposes and in accordance with these Terms. You must not use our services in any way that violates applicable laws or regulations, infringes on the rights of others, or could damage, disable, or impair our services."
+        },
+        {
+            "id": "accounts",
+            "number": "3.",
+            "title": "User Accounts",
+            "content": "When you create an account with us, you must provide accurate and complete information. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You must notify us immediately of any unauthorized use of your account."
+        },
+        {
+            "id": "ip",
+            "number": "4.",
+            "title": "Intellectual Property",
+            "content": "All content, features, and functionality of our services, including but not limited to text, graphics, logos, software, and technology, are the exclusive property of Sun Enterprises and are protected by international copyright, trademark, and other intellectual property laws."
+        },
+        {
+            "id": "liability",
+            "number": "5.",
+            "title": "Limitation of Liability",
+            "content": "Sun Enterprises shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use or inability to use our services. Our total liability shall not exceed the amount you paid to us in the twelve months preceding the claim."
+        },
+        {
+            "id": "termination",
+            "number": "6.",
+            "title": "Termination",
+            "content": "We reserve the right to terminate or suspend your account and access to our services immediately, without prior notice or liability, for any reason, including if you breach these Terms. Upon termination, your right to use our services will immediately cease."
+        },
+        {
+            "id": "modifications",
+            "number": "7.",
+            "title": "Modifications to Terms",
+            "content": "We reserve the right to modify these Terms at any time. We will notify you of any changes by posting the new Terms on this page and updating the 'Last Updated' date. Your continued use of our services after any modifications constitutes acceptance of the updated Terms."
+        },
+        {
+            "id": "law",
+            "number": "8.",
+            "title": "Governing Law",
+            "content": "These Terms shall be governed by and construed in accordance with the laws of the State of California, United States, without regard to its conflict of law provisions. Any disputes arising from these Terms shall be resolved in the courts of California."
+        }
+    ],
+    "contact": {
+        "title": "Need Legal Assistance?",
+        "subtitle": "Our legal team is available to answer your questions.",
+        "buttons": [
+            {
+                "text": "Contact Legal Team",
+                "style": "primary"
+            },
+            {
+                "text": "View All Policies",
+                "style": "secondary"
+            }
+        ]
+    }
+}

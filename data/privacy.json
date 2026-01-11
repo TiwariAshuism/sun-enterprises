@@ -1,0 +1,142 @@
+{
+    "header": {
+        "title": "Privacy Policy",
+        "lastUpdated": "January 11, 2026",
+        "breadcrumbs": [
+            {
+                "label": "Home",
+                "href": "/"
+            },
+            {
+                "label": "Legal",
+                "href": "#"
+            },
+            {
+                "label": "Privacy Policy",
+                "href": "/privacy"
+            }
+        ]
+    },
+    "sidebar": {
+        "title": "Quick Navigation",
+        "links": [
+            {
+                "label": "Our Commitment",
+                "href": "#commitment",
+                "icon": "shield"
+            },
+            {
+                "label": "Your Data",
+                "href": "#your-data",
+                "icon": "lock"
+            },
+            {
+                "label": "How We Use Info",
+                "href": "#how-we-use",
+                "icon": "analytics"
+            },
+            {
+                "label": "Data Security",
+                "href": "#security",
+                "icon": "security"
+            },
+            {
+                "label": "Your Rights",
+                "href": "#rights",
+                "icon": "verified_user"
+            }
+        ],
+        "callout": {
+            "icon": "info",
+            "title": "Have Questions?",
+            "text": "Our team is here to help you understand our privacy practices. Feel free to reach out anytime."
+        }
+    },
+    "sections": {
+        "commitment": {
+            "id": "commitment",
+            "title": "Our Commitment to Your Privacy",
+            "content": [
+                "At Sun Enterprises, we believe privacy is a fundamental right. We're committed to protecting your personal information and being transparent about how we collect, use, and safeguard your data.",
+                "This policy outlines our practices regarding data collection and usage. We encourage you to read it carefully and reach out if you have any questions or concerns."
+            ]
+        },
+        "yourData": {
+            "id": "your-data",
+            "title": "What Data We Collect",
+            "description": "We only collect information that helps us provide better agricultural solutions and improve your experience:",
+            "items": [
+                {
+                    "title": "Account Information",
+                    "description": "Name, email, company details when you register or contact us."
+                },
+                {
+                    "title": "Usage Data",
+                    "description": "How you interact with our platform, features used, and performance metrics."
+                },
+                {
+                    "title": "Agricultural Data",
+                    "description": "Farm specifications, crop types, and operational preferences (with your consent)."
+                },
+                {
+                    "title": "Device Information",
+                    "description": "Browser type, IP address, and device identifiers for security and optimization."
+                }
+            ]
+        },
+        "howWeUse": {
+            "id": "how-we-use",
+            "title": "How We Use Your Information",
+            "description": "Your data powers better agricultural solutions and helps us serve you more effectively:",
+            "cards": [
+                {
+                    "title": "Service Delivery",
+                    "description": "Providing and maintaining our solar-powered agricultural solutions."
+                },
+                {
+                    "title": "Communication",
+                    "description": "Sending important updates, newsletters, and support messages."
+                },
+                {
+                    "title": "Analytics & Improvement",
+                    "description": "Understanding usage patterns to enhance our platform and features."
+                },
+                {
+                    "title": "Security",
+                    "description": "Protecting your account and preventing unauthorized access or fraud."
+                }
+            ]
+        },
+        "security": {
+            "id": "security",
+            "title": "Data Security Measures",
+            "image": {
+                "src": "/images/privacy-hero.jpg",
+                "alt": "Digital security concept with encrypted data",
+                "quote": "Your data is encrypted end-to-end using industry-leading security protocols"
+            },
+            "content": "We implement robust security measures including end-to-end encryption, regular security audits, and compliance with international data protection standards. Our infrastructure is monitored 24/7 to detect and prevent any unauthorized access."
+        },
+        "rights": {
+            "id": "rights",
+            "title": "Your Privacy Rights",
+            "description": "You have complete control over your personal information. Exercise your rights:",
+            "buttons": [
+                "Access Your Data",
+                "Request Deletion",
+                "Update Information",
+                "Opt-Out of Marketing",
+                "Download Your Data"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Questions About Privacy?",
+        "subtitle": "We're here to help you understand our practices.",
+        "button": {
+            "text": "Contact Privacy Team",
+            "icon": "mail",
+            "href": "/contact"
+        }
+    }
+}

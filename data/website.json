@@ -1,0 +1,198 @@
+{
+    "site": {
+        "name": "Sun Enterprises",
+        "tagline": "Powering Agriculture",
+        "logo": "wb_sunny",
+        "contact": {
+            "email": [
+                "hello@sunenterprises.com",
+                "support@sunenterprises.com"
+            ],
+            "phone": "+1 (555) 123-4567",
+            "address": {
+                "street": "1200 Innovation Way",
+                "city": "San Francisco",
+                "state": "CA",
+                "zip": "94103",
+                "country": "United States"
+            },
+            "hours": "Mon-Fri from 8am to 5pm"
+        },
+        "social": {
+            "twitter": "#",
+            "linkedin": "#",
+            "facebook": "#"
+        }
+    },
+    "navigation": [
+        {
+            "label": "Solutions",
+            "href": "/#solutions"
+        },
+        {
+            "label": "Technology",
+            "href": "/technology"
+        },
+        {
+            "label": "About",
+            "href": "/about"
+        },
+        {
+            "label": "Sustainability",
+            "href": "/#sustainability"
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        }
+    ],
+    "hero": {
+        "headline": "Powering agriculture with",
+        "highlightedWords": [
+            "intelligence",
+            "sunlight"
+        ],
+        "subheadline": "Sustainable AgriTech solutions designed for the future of farming. We blend nature's wisdom with cutting-edge technology.",
+        "cta": [
+            {
+                "text": "Explore Solutions",
+                "type": "primary",
+                "href": "#solutions"
+            },
+            {
+                "text": "Contact Us",
+                "type": "secondary",
+                "href": "/contact"
+            }
+        ],
+        "backgroundImage": "/images/home-hero.jpg",
+        "backgroundAlt": "Sunlight filtering through fresh green crops in a modern farm field"
+    },
+    "features": [
+        {
+            "icon": "solar_power",
+            "title": "Solar Efficiency",
+            "description": "Maximizing energy capture with next-gen panels designed specifically for agricultural environments."
+        },
+        {
+            "icon": "water_drop",
+            "title": "Smart Irrigation",
+            "description": "AI-driven water management systems that reduce waste and optimize crop hydration levels."
+        },
+        {
+            "icon": "analytics",
+            "title": "Data Intelligence",
+            "description": "Real-time analytics dashboard empowering farmers to make data-backed decisions instantly."
+        }
+    ],
+    "services": {
+        "badge": {
+            "icon": "eco",
+            "text": "Sustainable Tech"
+        },
+        "headline": "Innovation rooted in nature.",
+        "subheadline": "We bridge the gap between traditional agriculture and cutting-edge technology, delivering sustainable solutions that power the next generation of farming.",
+        "items": [
+            {
+                "icon": "precision_manufacturing",
+                "title": "Precision Farming",
+                "description": "Leveraging advanced IoT sensors and real-time data analytics to optimize crop yields and resource usage with pinpoint accuracy.",
+                "cta": "Explore Solutions"
+            },
+            {
+                "icon": "pest_control",
+                "title": "Crop Protection",
+                "description": "Bio-engineered, eco-friendly pest control solutions that safeguard your harvest without compromising environmental integrity.",
+                "cta": "Learn More"
+            },
+            {
+                "icon": "solar_power",
+                "title": "Solar Integration",
+                "description": "Seamless renewable energy systems designed specifically for modern agricultural infrastructure to reduce carbon footprint.",
+                "cta": "View Technology"
+            },
+            {
+                "icon": "water_drop",
+                "title": "Smart Irrigation",
+                "description": "Automated water management systems that reduce waste by up to 40% while maintaining optimal soil moisture levels.",
+                "cta": "See How It Works"
+            },
+            {
+                "icon": "science",
+                "title": "Soil Analysis",
+                "description": "Comprehensive chemical and biological profiling of your soil health to inform precise nutrient application strategies.",
+                "cta": "Get Analyzed"
+            }
+        ],
+        "callToAction": {
+            "icon": "rocket_launch",
+            "title": "Ready to Innovate?",
+            "description": "Join hundreds of modern farms transforming their yield today.",
+            "buttonText": "Contact Sales",
+            "href": "/contact"
+        }
+    },
+    "testimonials": {
+        "headline": "Trusted by farmers worldwide",
+        "subheadline": "See how Sun Enterprises is transforming agriculture across the globe",
+        "items": [
+            {
+                "quote": "Sun Enterprises transformed our 500-acre farm with their smart irrigation system. We've reduced water usage by 45% while increasing crop yields by 30%.",
+                "author": "Sarah Mitchell",
+                "role": "Owner, Green Valley Farms",
+                "avatar": "/images/avatar-sarah.jpg"
+            },
+            {
+                "quote": "The precision farming technology has given us insights we never thought possible. Our ROI improved dramatically in just one season.",
+                "author": "James Rodriguez",
+                "role": "Agricultural Director, Sunshine Orchards",
+                "avatar": "/images/avatar-james.jpg"
+            },
+            {
+                "quote": "Their solar integration solution paid for itself within 18 months. Now we're energy independent and our carbon footprint is nearly zero.",
+                "author": "Emily Chen",
+                "role": "CEO, Future Farms Co.",
+                "avatar": "/images/avatar-emily.jpg"
+            }
+        ]
+    },
+    "stats": {
+        "headline": "Impact by the numbers",
+        "items": [
+            {
+                "value": "500+",
+                "label": "Farms Powered"
+            },
+            {
+                "value": "40%",
+                "label": "Water Reduction"
+            },
+            {
+                "value": "100k",
+                "label": "Acres Managed"
+            },
+            {
+                "value": "99%",
+                "label": "Client Satisfaction"
+            }
+        ]
+    },
+    "footer": {
+        "description": "Empowering agriculture through sustainable technology and data-driven innovation.",
+        "copyright": "© 2024 Sun Enterprises. All rights reserved.",
+        "links": [
+            {
+                "label": "Privacy Policy",
+                "href": "/privacy"
+            },
+            {
+                "label": "Terms of Service",
+                "href": "/terms"
+            },
+            {
+                "label": "Cookies",
+                "href": "#"
+            }
+        ]
+    }
+}
