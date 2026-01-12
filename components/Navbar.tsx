@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar({ data }: { data: any }) {
@@ -28,8 +28,6 @@ export default function Navbar({ data }: { data: any }) {
     // Update active segment on pathname change
     useEffect(() => {
         setActiveSegment(pathname);
-        // Reset hash when pathname changes (unless we are just navigating to a hash on the same page, handled by click)
-        // Actually, if we navigate to a new page, hash is usually empty unless specified.
         if (typeof window !== 'undefined') {
             setCurrentHash(window.location.hash);
         }
@@ -49,20 +47,13 @@ export default function Navbar({ data }: { data: any }) {
 
     const isActive = (href: string) => {
         if (href.startsWith('/#') || href.includes('#')) {
-            const [path, hash] = href.replace('/', '').split('#'); // Remove leading / for simpler check
-            // href is like /#solutions -> path='', hash='solutions'
-            // href is like /#sustainability -> path='', hash='sustainability'
-
-            // Standardize current pathname (remove leading /)
+            const [path, hash] = href.replace('/', '').split('#');
             const currentPath = pathname === '/' ? '' : pathname.replace('/', '');
-
             if (path === currentPath) {
                 return currentHash === `#${hash}`;
             }
             return false;
         }
-
-        // Normal links
         if (href === '/' && pathname === '/') return true;
         if (href !== '/' && pathname.startsWith(href)) return true;
         return false;
@@ -71,7 +62,6 @@ export default function Navbar({ data }: { data: any }) {
     const handleLinkClick = (href: string) => {
         setIsOpen(false);
         if (href.includes('#')) {
-            // Manually set hash slightly after click to ensure UI update if event lag
             const hash = href.split('#')[1];
             if (hash) setCurrentHash(`#${hash}`);
         } else {
@@ -84,7 +74,7 @@ export default function Navbar({ data }: { data: any }) {
             style={{ backgroundColor: navBackground }}
             className="fixed top-0 w-full z-50 border-b border-gray-200/50 dark:border-gray-800/50 transition-all duration-300 backdrop-blur-md"
         >
-            <div className="max-w-[1200px] mx-auto px-6 h-20 flex items-center justify-between">
+            <div className="relative z-50 max-w-[1200px] mx-auto px-6 h-20 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-3 group cursor-pointer" onClick={() => handleLinkClick('/')}>
                     <motion.div
                         whileHover={{ rotate: 180, scale: 1.1 }}
@@ -152,9 +142,58 @@ export default function Navbar({ data }: { data: any }) {
                     className="md:hidden p-2 text-charcoal dark:text-white"
                     onClick={() => setIsOpen(!isOpen)}
                 >
-                    <span className="material-symbols-outlined">menu</span>
+                    <span className="material-symbols-outlined">{isOpen ? 'close' : 'menu'}</span>
                 </motion.button>
             </div>
+
+            {/* Mobile Menu Overlay */}
+            <AnimatePresence>
+                {isOpen && (
+                    <motion.div
+                        key="mobile-menu"
+                        initial={{ opacity: 0, y: -20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                        transition={{ type: "spring", bounce: 0, duration: 0.4 }}
+                        className="fixed inset-0 bg-background-light dark:bg-background-dark z-40 pt-24 px-6 md:hidden h-screen"
+                    >
+                        <div className="flex flex-col gap-6 items-center text-center">
+                            {data.navigation.map((item: any, idx: number) => {
+                                const isLinkActive = isActive(item.href);
+                                return (
+                                    <motion.div
+                                        key={idx}
+                                        initial={{ opacity: 0, y: 20 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: 0.1 + idx * 0.1 }}
+                                        className="w-full"
+                                    >
+                                        <Link
+                                            href={item.href}
+                                            onClick={() => handleLinkClick(item.href)}
+                                            className={`text-2xl font-bold block py-4 ${isLinkActive ? 'text-primary' : 'text-charcoal dark:text-white'}`}
+                                        >
+                                            {item.label}
+                                        </Link>
+                                    </motion.div>
+                                );
+                            })}
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.5 }}
+                                className="mt-4"
+                            >
+                                <Link href="/contact" onClick={() => setIsOpen(false)}>
+                                    <button className="bg-charcoal dark:bg-white text-white dark:text-charcoal px-8 py-3 rounded-full font-bold text-lg shadow-lg">
+                                        Contact Us
+                                    </button>
+                                </Link>
+                            </motion.div>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </motion.nav>
     );
 }
