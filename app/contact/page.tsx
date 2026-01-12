@@ -14,7 +14,7 @@ export default function ContactPage() {
 
     return (
         <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-background-light dark:bg-background-dark">
-            <main className="flex-1 flex justify-center items-center py-12 lg:py-20 px-6 md:px-10 lg:px-40">
+            <main className="flex-1 flex justify-center items-center pt-28 pb-12 lg:pt-32 lg:pb-20 px-6 md:px-10 lg:px-40">
                 <div className="w-full max-w-[1200px] grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
                     {/* Left Side */}
                     <motion.div
