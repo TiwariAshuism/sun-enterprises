@@ -106,8 +106,8 @@
             "backgroundImage": "/images/about-hero.jpg"
         },
         "mission": {
-            "title": "Our mission is to transform our generational heritage into a trusted global brand.",
-            "description": "We deliver value-driven, quality-assured agri-products in alignment with international standards—while staying rooted in our philosophy of ethical business, community contribution, and long-term partnerships. We recognize that while we are a business that needs to be efficient and cost-effective, we also contribute towards improving access to high-nutrient food and combating global hunger. We're not just building exports; we're building a legacy of Indian agricultural excellence."
+            "title": "OUR STORY",
+            "description": "Shree Uma Nath Enterprises is a leading exporter of Commodity Products. We are the foremost accessible exporter of Rice, Wheat, Vegetable Oil, Special crops, Maize etc. We cover the entire spectrum of finished products covering every band. With years of extensive thorough technical knowledge, the company aims to achieve all worthy success & stability in the domain by staying consistent, customer-oriented, professional & beneficial to its every associated member treating every milestone as a stepping stone to mark our identity into the future. We grew from a small firm & evolved into a larger provider of commodity finished products. We believe in a connected centralised system that is powered and driven through its local offices. We have learned to bring our system to work around the client. The quality of the end product, being the primary interest of our clientele. We achieve this by following strictly implemented and routinely inspected guidelines in procuring the products, storing them in safe and sanitary facilities, and transporting them efficiently. We make sure our systems and their units practice the best industry standards. We pride to have a diverse clientele who we serve with diverse commodity products. We also recognise our responsibility towards the environment as a benefactor of products harvested from our natural ecosystems. We exercise caution and care in our dealings with nature, from our production teams to logistics. We are a green company looking to go greener."
         },
         "timeline": [
             {
@@ -132,26 +132,26 @@
             }
         ],
         "leadership": {
-            "title": "Our Strengths",
-            "subtitle": "What sets us apart in the global grain market",
+            "title": "OUR TEAM",
+            "subtitle": "Functioning like a well-oiled machine",
             "ctaText": "View Products",
             "team": [
                 {
-                    "name": "Direct Procurement",
-                    "role": "Product Excellence",
-                    "bio": "We maintain strategic relationships with farmers and millers across India's top production zones. Close proximity with cultivators and access to timely market intelligence allows us to procure the best quality products and deliver the most optimum pricing to our clients.",
+                    "name": "Innovation & Quality",
+                    "role": "Customer Centric",
+                    "bio": "As leaders of the commodity product suppliers, we recognise the healthy competition in the international market which pushes to keep improving our product and services. As the customer experience is at the centre of our operations, our product quality is the centre of our business. Our various Research & Development teams keep upping the ante for each other through their innovation in the product, supply chain, and customer experience.",
                     "image": "/images/about-story.jpg"
                 },
                 {
-                    "name": "Quality Control",
-                    "role": "Rigorous Standards",
-                    "bio": "Quality of the end product is the primary interest of our clientele. We achieve this through strictly implemented and routinely inspected guidelines in procuring, storing in safe and sanitary facilities, and transporting efficiently. Every batch is NABL lab-tested with optional SGS/Bureau Veritas pre-shipment inspection. We ensure all systems practice the best industry standards.",
+                    "name": "Global Operations",
+                    "role": "Middle East & Africa",
+                    "bio": "Today, we cater clientele across the globe specially in the regions of Middle East & Africa with a local concentration of teams, talent acquisition, storage centres, distribution hubs, research studies, and grievance management crews. Our systems go like clockwork because we function like a well-oiled machine.",
                     "image": "/images/about-mission.jpg"
                 },
                 {
-                    "name": "Distribution & Logistics",
-                    "role": "Efficient Supply Chain",
-                    "bio": "Three generations of grain trading experience with partnerships among the best packers, distributors, and logistics providers. We handle all export documentation—Phytosanitary certificates, Certificate of Origin, Fumigation, and Inspection reports. Pre-shipment drop testing on all supply sacks ensures smooth and efficient delivery.",
+                    "name": "Unified System",
+                    "role": "Bottom-Up Enabler",
+                    "bio": "We aim to have a bottom-up enabler system where the lab researchers, logistics workers, and marketing design-ers all enable the system to perform to its optimum potential. This allows our delivery to cater to the indigenous needs of the client reflected by the local markets. Our teams are trained to practice safety, hygiene, and sanitary protocols to the standardised levels based on prevailing highest standards.",
                     "image": "/images/technology-bento-1.jpg"
                 }
             ]
