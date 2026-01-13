@@ -1,10 +1,24 @@
 'use client';
+import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 export default function Hero({ data }: { data: any }) {
     const { scrollY } = useScroll();
     const y = useTransform(scrollY, [0, 500], [0, 150]);
     const opacity = useTransform(scrollY, [0, 300], [1, 0]);
+
+    const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
+
+    const videos = [
+        '/video/Home-page-v01.mp4',
+        '/video/Home-page-v02.mp4',
+        '/video/Home-page-v03.mp4',
+        '/video/Home-page-v04.mp4'
+    ];
+
+    const handleVideoEnd = () => {
+        setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videos.length);
+    };
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -29,12 +43,18 @@ export default function Hero({ data }: { data: any }) {
     return (
         <main className="relative h-screen min-h-[700px] w-full flex items-center justify-center overflow-hidden">
             <motion.div style={{ y }} className="absolute inset-0 z-0">
-                <motion.div
-                    initial={{ scale: 1.2 }}
-                    animate={{ scale: 1 }}
+                <motion.video
+                    key={videos[currentVideoIndex]}
+                    initial={{ scale: 1.2, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 1.5, ease: 'easeOut' }}
-                    className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-                    style={{ backgroundImage: `url("${data.backgroundImage}")` }}
+                    className="absolute inset-0 w-full h-full object-cover"
+                    autoPlay
+                    muted
+                    playsInline
+                    src={videos[currentVideoIndex]}
+                    onEnded={handleVideoEnd}
+                    preload="auto"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-white/90 via-white/40 to-white/10 dark:from-background-dark/90 dark:via-background-dark/50 dark:to-background-dark/20" />
                 <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background-light dark:from-background-dark to-transparent" />
@@ -70,7 +90,7 @@ export default function Hero({ data }: { data: any }) {
 
                 <motion.p
                     variants={itemVariants}
-                    className="text-lg md:text-xl text-charcoal-muted dark:text-gray-300 max-w-2xl font-normal leading-relaxed"
+                    className="text-lg md:text-xl text-white max-w-2xl font-normal leading-relaxed"
                 >
                     {data.subheadline}
                 </motion.p>
@@ -88,8 +108,8 @@ export default function Hero({ data }: { data: any }) {
                         >
                             <button
                                 className={`flex items-center justify-center h-14 px-8 rounded-full font-bold text-base transition-all duration-300 ${button.type === 'primary'
-                                        ? 'bg-primary hover:bg-primary-hover text-charcoal shadow-lg shadow-yellow-500/20'
-                                        : 'bg-white/50 dark:bg-black/20 backdrop-blur-sm border border-gray-200 dark:border-gray-700 text-charcoal dark:text-white hover:bg-white dark:hover:bg-white/10'
+                                    ? 'bg-primary hover:bg-primary-hover text-charcoal shadow-lg shadow-yellow-500/20'
+                                    : 'bg-white/50 dark:bg-black/20 backdrop-blur-sm border border-gray-200 dark:border-gray-700 text-charcoal dark:text-white hover:bg-white dark:hover:bg-white/10'
                                     }`}
                             >
                                 <span>{button.text}</span>
