@@ -73,18 +73,18 @@
     "features": [
         {
             "icon": "verified",
-            "title": "Direct Mill Sourcing",
-            "description": "No middlemen. We work directly with farmers and millers across key production zones for competitive FOB/CIF pricing."
+            "title": "Direct Procurement",
+            "description": "Strategic relationships with farmers and millers across Punjab, Haryana, MP, and Maharashtra. Direct-from-source procurement ensures most competitive pricing and timely market intelligence sharing with our clients."
         },
         {
             "icon": "science",
-            "title": "Quality Assurance",
-            "description": "NABL lab testing, APEDA registered, FSSAI licensed. Optional SGS/Bureau Veritas pre-shipment inspection available."
+            "title": "Quality Systems",
+            "description": "State-of-the-art processing with sortex cleaning and moisture control. NABL lab testing on every batch. Optional SGS/Bureau Veritas pre-shipment inspection. Stored in sanitary, temperature-controlled warehousing facilities."
         },
         {
             "icon": "public",
-            "title": "Global Export Ready",
-            "description": "Full documentation support: Phytosanitary, Certificate of Origin, Fumigation certificates. LC/DP/Advance payment terms."
+            "title": "Export & Logistics",
+            "description": "Complete documentation support: Phytosanitary, Certificate of Origin, Fumigation certificates. Partnerships with certified packers and logistics providers. Pre-shipment drop testing on all supply sacks. LC/DP/Advance payment terms."
         }
     ],
     "services": {
@@ -93,43 +93,49 @@
             "text": "Export Quality"
         },
         "headline": "Premium Indian Grains & Pulses",
-        "subheadline": "From the heartland of India to global markets. We specialize in export-quality rice, pulses, and wheat with rigorous quality control and flexible packaging options.",
+        "subheadline": "Supplying the finest quality products at competitive prices. With direct sourcing from farmers and millers across India's prime agricultural zones, we deliver export-grade commodities with complete transparency and traceability.",
         "items": [
             {
                 "icon": "grain",
                 "title": "1121 Basmati Rice",
-                "description": "Premium Sella, Steam, and Golden Sella variants. AGL 8.3mm+, <2% broken. Sourced from Punjab and Haryana. Available in bulk PP bags and private label packaging.",
+                "description": "World's finest aromatic long-grain rice. Premium Sella (8.35mm), Golden Sella (8.30mm), and Steam (8.35mm) variants. <2% broken premium grade. Sourced directly from Punjab and Haryana mills with complete quality certification.",
                 "cta": "View Specifications"
             },
             {
                 "icon": "rice_bowl",
                 "title": "Non-Basmati Rice",
-                "description": "IR-64, Sona Masoori, Parboiled varieties. Double polished, 5% broken grade. Ideal for institutional buyers and food processors. Competitive CIF rates.",
+                "description": "IR-64, Sona Masoori, and Parboiled varieties. Double polished to perfection, 5% broken standard grade. High-volume export specialist for institutional buyers, food processors, and wholesale distributors. Most aggressive FOB/CIF pricing.",
                 "cta": "Learn More"
             },
             {
                 "icon": "sensors",
                 "title": "Kabuli Chickpeas",
-                "description": "Bold grade 8mm, 9mm, 10mm. 99%+ purity, <12% moisture. Machine cleaned and sortex processed. Available for bulk export with flexible MOQ.",
+                "description": "Premium bold grade: 8mm, 9mm, 10mm sizes. 99%+ purity guaranteed, <12% moisture content. Machine cleaned, sortex processed, and pre-shipment drop tested. High nutritional value meeting international food safety standards.",
                 "cta": "Get Quotation"
             },
             {
                 "icon": "breakfast_dining",
-                "title": "Red Lentils & Pulses",
-                "description": "Masoor Dal (Football/Split), Toor Dal, Moong Dal, Chana Dal. 99.5%+ purity. Certified quality with full traceability from farm to port.",
+                "title": "Premium Pulses & Lentils",
+                "description": "Comprehensive range: Masoor Dal (Red Lentils - Football/Split), Toor Dal (Pigeon Peas), Moong Dal (Green Gram), Chana Dal (Bengal Gram). 99.5%+ purity with complete farm-to-port traceability. Stored in sanitary, temperature-controlled facilities.",
                 "cta": "See Products"
             },
             {
                 "icon": "bakery_dining",
                 "title": "Wheat & Flour",
-                "description": "Whole wheat grains and processed atta (wheat flour). Premium MP and Punjab varieties. Custom milling specifications available for bulk orders.",
+                "description": "Whole wheat grains and processed atta (wheat flour). Premium MP and Punjab varieties. Custom milling specifications available for bulk orders. Ideal for bakeries, food manufacturers, and wholesale distribution.",
                 "cta": "Request Sample"
+            },
+            {
+                "icon": "spa",
+                "title": "Specialty Crops",
+                "description": "High-demand specialty crops including Yellow Peas, Sesame Seeds, and other pulses. Catering to health-conscious markets in Middle East and Africa with superior nutritional profiles and strict quality grading.",
+                "cta": "Explore Range"
             }
         ],
         "callToAction": {
             "icon": "rocket_launch",
             "title": "Ready to Import Quality?",
-            "description": "Contact us for FOB/CIF quotations, free samples, or long-term supply contracts.",
+            "description": "Join our diverse global clientele. Get FOB/CIF quotations with transparent pricing, request pre-shipment samples, or establish long-term supply partnerships backed by three generations of grain trading excellence.",
             "buttonText": "Get Export Quote",
             "href": "/contact"
         }

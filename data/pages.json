@@ -75,9 +75,12 @@
                         "Export Inquiry - Basmati Rice",
                         "Export Inquiry - Non-Basmati Rice",
                         "Export Inquiry - Chickpeas/Pulses",
+                        "Export Inquiry - Specialty Crops",
                         "Product Samples Request",
                         "Bulk Order Quotation",
                         "Long-term Supply Contract",
+                        "Technical Specifications Request",
+                        "Factory Tour / Audit Request",
                         "General Inquiry"
                     ]
                 },
@@ -104,7 +107,7 @@
         },
         "mission": {
             "title": "Our mission is to transform our generational heritage into a trusted global brand.",
-            "description": "We deliver value-driven, quality-assured agri-products in alignment with international standards—while staying rooted in our philosophy of ethical business, community contribution, and long-term partnerships. We're not just building exports; we're building a legacy of Indian agricultural excellence."
+            "description": "We deliver value-driven, quality-assured agri-products in alignment with international standards—while staying rooted in our philosophy of ethical business, community contribution, and long-term partnerships. We recognize that while we are a business that needs to be efficient and cost-effective, we also contribute towards improving access to high-nutrient food and combating global hunger. We're not just building exports; we're building a legacy of Indian agricultural excellence."
         },
         "timeline": [
             {
@@ -134,21 +137,21 @@
             "ctaText": "View Products",
             "team": [
                 {
-                    "name": "Direct Sourcing",
-                    "role": "No Middlemen",
-                    "bio": "We maintain direct relationships with farmers and millers across India's top production zones, ensuring competitive pricing and consistent quality.",
+                    "name": "Direct Procurement",
+                    "role": "Product Excellence",
+                    "bio": "We maintain strategic relationships with farmers and millers across India's top production zones. Close proximity with cultivators and access to timely market intelligence allows us to procure the best quality products and deliver the most optimum pricing to our clients.",
                     "image": "/images/about-story.jpg"
                 },
                 {
-                    "name": "Quality First",
+                    "name": "Quality Control",
                     "role": "Rigorous Standards",
-                    "bio": "Every batch is NABL lab-tested with optional SGS/Bureau Veritas pre-shipment inspection. We understand seasonal variations and grade products to meet stringent international standards.",
+                    "bio": "Quality of the end product is the primary interest of our clientele. We achieve this through strictly implemented and routinely inspected guidelines in procuring, storing in safe and sanitary facilities, and transporting efficiently. Every batch is NABL lab-tested with optional SGS/Bureau Veritas pre-shipment inspection. We ensure all systems practice the best industry standards.",
                     "image": "/images/about-mission.jpg"
                 },
                 {
-                    "name": "Export Expertise",
-                    "role": "Full Documentation",
-                    "bio": "Three generations of grain trading experience. We handle all export documentation: Phytosanitary certificates, Certificate of Origin, Fumigation, and Inspection reports.",
+                    "name": "Distribution & Logistics",
+                    "role": "Efficient Supply Chain",
+                    "bio": "Three generations of grain trading experience with partnerships among the best packers, distributors, and logistics providers. We handle all export documentation—Phytosanitary certificates, Certificate of Origin, Fumigation, and Inspection reports. Pre-shipment drop testing on all supply sacks ensures smooth and efficient delivery.",
                     "image": "/images/technology-bento-1.jpg"
                 }
             ]
@@ -204,18 +207,18 @@
         },
         "intelligence": {
             "title": "Our Product Range",
-            "subtitle": "From farm to port, we ensure consistent quality through direct mill sourcing, sortex cleaning, and laboratory testing.",
+            "subtitle": "From procurement to port: we ensure consistent quality through direct mill sourcing, state-of-the-art processing with sortex cleaning, NABL laboratory testing, and safe warehousing in sanitary, temperature-controlled facilities.",
             "features": {
                 "main": {
                     "icon": "verified_user",
-                    "title": "Quality Assurance",
-                    "description": "NABL lab-tested batches. Optional SGS/Bureau Veritas pre-shipment inspection available for international buyers.",
+                    "title": "Quality Assurance Systems",
+                    "description": "Every batch undergoes rigorous NABL laboratory testing following strictly implemented and routinely inspected guidelines. Our quality control extends from procurement through storage in safe, sanitary facilities, to efficient transportation. We make sure all our systems and their units practice the best industry standards. Optional SGS/Bureau Veritas pre-shipment inspection available for international buyers.",
                     "image": "/images/technology-bento-2.jpg"
                 },
                 "secondary": {
                     "icon": "inventory_2",
-                    "title": "Flexible Packaging",
-                    "description": "Bulk PP woven bags (25kg/40kg/50kg), Private Label, or Retail-ready consumer packs (1kg/5kg/10kg).",
+                    "title": "Flexible Packaging Solutions",
+                    "description": "Comprehensive packaging options: Bulk PP woven bags (25kg/40kg/50kg), Private Label with custom branding, or Retail-ready consumer packs (1kg/5kg/10kg). Pre-shipment drop testing on all supply sacks prior to acceptance.",
                     "image": "/images/technology-bento-3.jpg"
                 },
                 "small": [
@@ -236,22 +239,22 @@
         "solarYield": {
             "backgroundText": "PRODUCT CATALOG",
             "title": "Premium Basmati Rice",
-            "description": "India's finest long-grain aromatic rice sourced from Punjab and Haryana. Available in Sella, Steam, and Golden Sella variants with AGL 8.3mm+ and minimal breakage.",
+            "description": "India's finest aromatic long-grain rice sourced from Punjab and Haryana. We procure directly from mills we've partnered with for decades, ensuring consistent quality and competitive pricing. Available in Sella, Steam, and Golden Sella variants with complete quality certification and SGS inspection support.",
             "features": [
                 {
                     "category": "1121 Sella",
-                    "title": "Creamy White, Parboiled",
-                    "description": "AGL 8.30-8.40mm | <2% Broken (Premium) | <5% (Standard) | Moisture <14% | 25kg/40kg/50kg PP bags"
+                    "title": "1121 Creamy Sella (Parboiled)",
+                    "description": "AGL 8.30-8.40mm | <2% Broken (Premium Grade) / <5% (Standard Grade) | Moisture <14% | Creamy white color | Non-sticky texture ideal for daily consumption | Available in 25kg/40kg/50kg PP bags and private label options"
                 },
                 {
                     "category": "1121 Steam",
-                    "title": "Pure White, Non-Parboiled",
-                    "description": "AGL 8.35mm+ | <2% Broken | Extra Long Grain | Aged for superior aroma | Ideal for Biryani and Pulao"
+                    "title": "1121 Steam (Non-Parboiled)",
+                    "description": "AGL 8.35mm+ | <2% Broken | Extra Long Grain | Pure white color | Aged for superior aroma and taste | Ideal for Biryani, Pulao, and premium preparations | Export's most demanded variant"
                 },
                 {
                     "category": "1121 Golden Sella",
-                    "title": "Deep Amber Color",
-                    "description": "AGL 8.30mm+ | <2% Broken | Premium Grade | Non-sticky texture | High nutritional value retained"
+                    "title": "1121 Golden Sella (Premium)",
+                    "description": "AGL 8.30mm+ | <2% Broken | Premium Grade | Deep amber color from parboiling process | Non-sticky texture | High nutritional value retained through parboiling | Longer shelf life | Preferred in Middle East markets"
                 }
             ]
         },
