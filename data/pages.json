@@ -1,22 +1,26 @@
 {
     "contact": {
         "meta": {
-            "title": "Contact: Let's Connect | Sun Enterprises",
-            "description": "Get in touch with Sun Enterprises for agricultural solutions"
+            "title": "Contact Us - Export Inquiry | Shree Uma Nath Enterprises",
+            "description": "Get in touch for FOB/CIF quotations, product samples, or bulk export inquiries for premium Indian grains and pulses"
         },
         "hero": {
-            "headline": "Let's talk about the",
-            "highlightedWord": "future",
-            "subheadline": "Have a question or looking to transform your agricultural operations? Our team is here to help you scale sustainably."
+            "headline": "Let's build a partnership rooted in",
+            "highlightedWord": "quality",
+            "subheadline": "Looking to import premium Indian grains and pulses? Our team is ready to provide FOB/CIF quotations, arrange samples, and support your export documentation needs."
         },
         "contactDetails": [
             {
                 "label": "Email",
-                "value": "connect@sunenterprises.agri"
+                "value": "export@shreesunen.com | info@shreesunen.com"
+            },
+            {
+                "label": "WhatsApp",
+                "value": "+91 XXXXX XXXXX (24-hour response)"
             },
             {
                 "label": "Office",
-                "value": "Global HQ - Sustainable Valley, CA"
+                "value": "Barh, Bihar 803213, India"
             },
             {
                 "label": "Social",
@@ -26,106 +30,125 @@
                         "href": "#"
                     },
                     {
-                        "text": "Twitter",
+                        "text": "Alibaba",
+                        "href": "#"
+                    },
+                    {
+                        "text": "IndiaMART",
                         "href": "#"
                     }
                 ]
             }
         ],
         "form": {
-            "title": "Get in touch",
+            "title": "Request Export Quotation",
             "fields": [
                 {
                     "name": "fullName",
-                    "label": "Full Name",
+                    "label": "Full Name / Company Name",
                     "type": "text",
-                    "placeholder": "Enter your full name"
+                    "placeholder": "Enter your name or company name"
                 },
                 {
                     "name": "email",
                     "label": "Email Address",
                     "type": "email",
-                    "placeholder": "hello@example.com"
+                    "placeholder": "your@email.com"
+                },
+                {
+                    "name": "phone",
+                    "label": "Phone / WhatsApp",
+                    "type": "text",
+                    "placeholder": "+XX XXXXX XXXXX"
+                },
+                {
+                    "name": "country",
+                    "label": "Country",
+                    "type": "text",
+                    "placeholder": "Your country"
                 },
                 {
                     "name": "subject",
-                    "label": "Subject",
+                    "label": "Inquiry Type",
                     "type": "select",
                     "options": [
-                        "Agricultural Consulting",
-                        "Software Licensing",
-                        "Sustainability Audit",
+                        "Export Inquiry - Basmati Rice",
+                        "Export Inquiry - Non-Basmati Rice",
+                        "Export Inquiry - Chickpeas/Pulses",
+                        "Product Samples Request",
+                        "Bulk Order Quotation",
+                        "Long-term Supply Contract",
                         "General Inquiry"
                     ]
                 },
                 {
                     "name": "message",
-                    "label": "Message",
+                    "label": "Message / Requirements",
                     "type": "textarea",
-                    "placeholder": "Tell us about your project...",
-                    "rows": 4
+                    "placeholder": "Please specify: Product type, quantity (MT), packaging preference, delivery terms (FOB/CIF), destination port...",
+                    "rows": 5
                 }
             ],
-            "submitText": "Send Message"
+            "submitText": "Send Inquiry"
         }
     },
     "about": {
         "meta": {
-            "title": "About Sun Enterprises | Driven by the Sun",
-            "description": "Learn about our mission to harmonize technology with earth's natural rhythms"
+            "title": "About Us - Third Generation Grain Exporter | Shree Uma Nath Enterprises",
+            "description": "Established 1996 in Barh, Bihar. Three generations of expertise in Indian grains and pulses export with Pan-India trust and international quality standards."
         },
         "hero": {
-            "title": "Driven by the Sun.",
-            "subtitle": "We are redefining the future of agriculture through solar-first technology and autonomous sustainability.",
+            "title": "Building Legacy, One Container at a Time.",
+            "subtitle": "Shree Uma Nath Enterprises is a third-generation family-run agri-business specializing in the manufacturing, processing, and export of high-quality Indian grains and pulses.",
             "backgroundImage": "/images/about-hero.jpg"
         },
         "mission": {
-            "title": "Our mission is to harmonize technology with the earth's natural rhythms.",
-            "description": "At Sun Enterprises, we believe the solution to global food security isn't just about planting more; it's about growing smarter. By harnessing the infinite energy of the sun, we power a new generation of farming equipment that leaves zero carbon footprint."
+            "title": "Our mission is to transform our generational heritage into a trusted global brand.",
+            "description": "We deliver value-driven, quality-assured agri-products in alignment with international standards—while staying rooted in our philosophy of ethical business, community contribution, and long-term partnerships. We're not just building exports; we're building a legacy of Indian agricultural excellence."
         },
         "timeline": [
             {
-                "year": "2010",
-                "title": "The Seed is Planted",
-                "description": "Founded in a small garage in California, we began with a single goal: creating a solar-powered irrigation pump for local farmers."
+                "year": "1996",
+                "title": "Foundation in Barh, Bihar",
+                "description": "Established as a family-owned grain trading business in Barh, Bihar. Started with local distribution of rice and pulses to wholesalers across Bihar."
             },
             {
-                "year": "2014",
-                "title": "First Solar-Agri Project",
-                "description": "Launched the Helios-1, the world's first fully autonomous solar tractor, reducing operational costs by 60% for mid-sized farms."
+                "year": "Early 2000s",
+                "title": "Pan-India Network Expansion",
+                "description": "Built strong relationships with farmers and millers across Punjab, Haryana, MP, and Maharashtra. Expanded distribution to serve food processors and institutional clients across India."
             },
             {
-                "year": "2018",
-                "title": "AgriTech Innovation Award",
-                "description": "Recognized by the World Economic Forum for our contributions to sustainable land management through satellite AI and solar sensors."
+                "year": "2010s",
+                "title": "Quality Certifications",
+                "description": "Achieved APEDA registration and FSSAI licensing. Implemented NABL lab testing and sortex cleaning processes to meet international export standards."
             },
             {
-                "year": "2023",
-                "title": "Global Expansion",
-                "description": "Now operating in 14 countries, managing over 1 million hectares with zero-emission technology."
+                "year": "2024",
+                "title": "Global Export Expansion",
+                "description": "Now exporting premium Basmati rice, pulses, and wheat to Middle East markets (UAE, Saudi, Qatar, Oman, Kuwait, Bahrain) with full documentation support and competitive pricing."
             }
         ],
         "leadership": {
-            "title": "Our Leadership",
-            "subtitle": "The minds behind the movement.",
-            "ctaText": "See All Team",
+            "title": "Our Strengths",
+            "subtitle": "What sets us apart in the global grain market",
+            "ctaText": "View Products",
             "team": [
                 {
-                    "name": "David Chen",
-                    "role": "Founder & CEO",
-                    "bio": "A pioneer in renewable energy systems with 15+ years of experience in silicon-valley agricultural tech.",
+                    "name": "Direct Sourcing",
+                    "role": "No Middlemen",
+                    "bio": "We maintain direct relationships with farmers and millers across India's top production zones, ensuring competitive pricing and consistent quality.",
                     "image": "/images/about-story.jpg"
                 },
                 {
-                    "name": "Sarah Williams",
-                    "role": "Chief Sustainability Officer",
-                    "bio": "Former Director of Environmental Policy, Sarah ensures every Sun Enterprise product improves the local ecosystem.",
+                    "name": "Quality First",
+                    "role": "Rigorous Standards",
+                    "bio": "Every batch is NABL lab-tested with optional SGS/Bureau Veritas pre-shipment inspection. We understand seasonal variations and grade products to meet stringent international standards.",
                     "image": "/images/about-mission.jpg"
                 },
                 {
-                    "name": "Marcus Thorne",
-                    "role": "Head of Engineering",
-                    "bio": "The architect behind the Helios autonomous platform and our proprietary AI-mesh soil monitoring network.",
+                    "name": "Export Expertise",
+                    "role": "Full Documentation",
+                    "bio": "Three generations of grain trading experience. We handle all export documentation: Phytosanitary certificates, Certificate of Origin, Fumigation, and Inspection reports.",
                     "image": "/images/technology-bento-1.jpg"
                 }
             ]
@@ -133,33 +156,33 @@
         "impact": {
             "stats": [
                 {
-                    "value": "1.2M",
-                    "label": "Hectares Monitored"
+                    "value": "28+",
+                    "label": "Years in Business"
                 },
                 {
-                    "value": "14k",
-                    "label": "Active Systems"
+                    "value": "3rd Gen",
+                    "label": "Family Owned"
                 },
                 {
-                    "value": "0%",
-                    "label": "Carbon Footprint"
+                    "value": "APEDA",
+                    "label": "Registered"
                 },
                 {
-                    "value": "500+",
-                    "label": "Global Patents"
+                    "value": "ISO",
+                    "label": "Compliant"
                 }
             ]
         },
         "cta": {
-            "title": "Ready to harvest the future?",
-            "subtitle": "Join us in revolutionizing the way we feed the world.",
+            "title": "Ready to partner with a trusted exporter?",
+            "subtitle": "Whether you need a single container trial or a long-term supply contract, we're here to support your requirements.",
             "buttons": [
                 {
-                    "text": "Work with Us",
+                    "text": "Get Export Quote",
                     "type": "primary"
                 },
                 {
-                    "text": "Our Solutions",
+                    "text": "Request Samples",
                     "type": "secondary"
                 }
             ]
@@ -167,98 +190,98 @@
     },
     "technology": {
         "meta": {
-            "title": "Sun Enterprises | Technology",
-            "description": "Engineering a sustainable future through precision solar-powered sensor technology"
+            "title": "Export Services & Product Specifications | Shree Uma Nath Enterprises",
+            "description": "Premium export-quality Indian grains and pulses with complete specifications, packaging options, and export documentation support"
         },
         "hero": {
-            "title": "The Intelligence Behind the Harvest.",
-            "subtitle": "Engineering a sustainable future through precision solar-powered sensor technology and adaptive AI analytics.",
+            "title": "Export-Quality Products with Complete Documentation",
+            "subtitle": "We offer premium Indian grains and pulses with rigorous quality control, flexible packaging, and full export support including FOB/CIF terms.",
             "productImage": "/images/technology-product.jpg",
             "badges": [
-                "Titanium Grade 5",
-                "Solar Powered"
+                "APEDA Registered",
+                "ISO Compliant"
             ]
         },
         "intelligence": {
-            "title": "Smart Crop Intelligence.",
-            "subtitle": "Deep learning algorithms process real-time soil and atmospheric data to predict yields with 99% accuracy.",
+            "title": "Our Product Range",
+            "subtitle": "From farm to port, we ensure consistent quality through direct mill sourcing, sortex cleaning, and laboratory testing.",
             "features": {
                 "main": {
-                    "icon": "psychology",
-                    "title": "Neural Engine",
-                    "description": "Edge computing that processes terabytes of data locally, reducing latency and bandwidth.",
+                    "icon": "verified_user",
+                    "title": "Quality Assurance",
+                    "description": "NABL lab-tested batches. Optional SGS/Bureau Veritas pre-shipment inspection available for international buyers.",
                     "image": "/images/technology-bento-2.jpg"
                 },
                 "secondary": {
-                    "icon": "water_drop",
-                    "title": "Hydration Map",
-                    "description": "Precise moisture monitoring down to the millimeter.",
+                    "icon": "inventory_2",
+                    "title": "Flexible Packaging",
+                    "description": "Bulk PP woven bags (25kg/40kg/50kg), Private Label, or Retail-ready consumer packs (1kg/5kg/10kg).",
                     "image": "/images/technology-bento-3.jpg"
                 },
                 "small": [
                     {
-                        "title": "5G",
-                        "subtitle": "Connectivity",
-                        "description": "Seamless global roaming across all major networks."
+                        "title": "FOB",
+                        "subtitle": "Mundra/Kandla",
+                        "description": "Free on Board from major Indian ports with competitive pricing."
                     },
                     {
-                        "icon": "solar_power",
-                        "subtitle": "Efficiency",
-                        "description": "Zero Carbon Footprint",
+                        "icon": "local_shipping",
+                        "subtitle": "12-15 Days",
+                        "description": "Shipment Timeline from Order Confirmation",
                         "highlighted": true
                     }
                 ]
             }
         },
         "solarYield": {
-            "backgroundText": "SOLAR YIELD",
-            "title": "Efficiency redefined.",
-            "description": "Our proprietary SunTrack™ technology tilts the sensor's micro-panels to capture 40% more solar energy than static systems.",
+            "backgroundText": "PRODUCT CATALOG",
+            "title": "Premium Basmati Rice",
+            "description": "India's finest long-grain aromatic rice sourced from Punjab and Haryana. Available in Sella, Steam, and Golden Sella variants with AGL 8.3mm+ and minimal breakage.",
             "features": [
                 {
-                    "category": "Storage",
-                    "title": "Solid-State Battery",
-                    "description": "Lasts up to 10 years without degradation, even in extreme soil salinity."
+                    "category": "1121 Sella",
+                    "title": "Creamy White, Parboiled",
+                    "description": "AGL 8.30-8.40mm | <2% Broken (Premium) | <5% (Standard) | Moisture <14% | 25kg/40kg/50kg PP bags"
                 },
                 {
-                    "category": "Optimization",
-                    "title": "Dynamic Tilting",
-                    "description": "Adaptive micro-servos ensure optimal solar angle from dawn to dusk."
+                    "category": "1121 Steam",
+                    "title": "Pure White, Non-Parboiled",
+                    "description": "AGL 8.35mm+ | <2% Broken | Extra Long Grain | Aged for superior aroma | Ideal for Biryani and Pulao"
                 },
                 {
-                    "category": "Monitoring",
-                    "title": "24/7 Diagnostics",
-                    "description": "Continuous self-health checks ensure 99.9% hardware uptime."
+                    "category": "1121 Golden Sella",
+                    "title": "Deep Amber Color",
+                    "description": "AGL 8.30mm+ | <2% Broken | Premium Grade | Non-sticky texture | High nutritional value retained"
                 }
             ]
         },
         "specs": {
-            "title": "Technical Specifications",
+            "title": "Other Product Specifications",
             "items": [
                 {
-                    "label": "Materials",
-                    "value": "Recycled Aerospace Grade Titanium",
-                    "detail": "Impact-resistant sapphire glass solar cover."
+                    "label": "Kabuli Chickpeas",
+                    "value": "Bold Grade: 8mm, 9mm, 10mm",
+                    "detail": "Purity 99%+ | Moisture <12% | Machine cleaned & sortex processed | 25kg/50kg PP bags | FOB/CFR terms"
                 },
                 {
-                    "label": "Sensors",
-                    "value": "Multi-Spectrum Soil Probe",
-                    "detail": "NPK (Nitrogen, Phosphorus, Potassium), pH, EC, Moisture, Temperature."
+                    "label": "Red Lentils (Masoor Dal)",
+                    "value": "Football Type & Split",
+                    "detail": "Purity 99.5%+ | Moisture <14% | Color: Salmon/Coral | SGS Certified | India Origin | 25kg/50kg bags"
                 },
                 {
-                    "label": "Dimensions",
-                    "value": "180mm x 45mm x 45mm",
-                    "detail": "Weight: 240g. Probe depth: 150mm."
+                    "label": "Non-Basmati Rice",
+                    "value": "IR-64, Sona Masoori, Parboiled",
+                    "detail": "5% Broken | Double Polished | Moisture <14% | Bulk Export | Competitive CIF Rates | 25kg/50kg bags"
                 },
                 {
-                    "label": "Operating Range",
-                    "value": "-20°C to +75°C",
-                    "detail": "IP68 certified water and dust resistance."
+                    "label": "Other Pulses",
+                    "value": "Toor Dal, Moong Dal, Chana Dal, Bengal Gram",
+                    "detail": "Export Grade | 99%+ Purity | Full Traceability | Custom Packaging Available | MOQ: 1 x 20' FCL"
                 }
             ],
             "cta": {
-                "text": "Detailed datasheet available for enterprise partners.",
-                "buttonText": "Download Whitepaper"
+                "text": "All products available with Phytosanitary Certificate, Certificate of Origin, Fumigation Certificate, and optional SGS Inspection Report.",
+                "buttonText": "Request Product Catalog"
             }
         }
     }
