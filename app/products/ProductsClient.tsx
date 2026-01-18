@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 // Import data handling
 import productList from '@/data/products.json';
 
@@ -71,7 +72,7 @@ export default function ProductsClient() {
                 {filteredProducts.map((product) => (
                     <div
                         key={product.id}
-                        className="group relative bg-[#f9f8f6] dark:bg-[#252015] rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1"
+                        className="group relative bg-[#f9f8f6] dark:bg-[#252015] rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 border-2 border-gray-300 dark:border-gray-700"
                     >
                         <div
                             className="aspect-[16/10] w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
@@ -92,13 +93,13 @@ export default function ProductsClient() {
                             <p className="text-neutral-600 dark:text-neutral-400 mb-6 leading-relaxed line-clamp-3">
                                 {product.description}
                             </p>
-                            <a
+                            <Link
+                                href={`/products/${product.id}`}
                                 className="inline-flex items-center text-primary font-bold gap-1 hover:gap-3 transition-all"
-                                href="#"
                             >
                                 Learn more{' '}
                                 <span className="material-symbols-outlined !text-base">arrow_forward</span>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 ))}
@@ -124,9 +125,11 @@ export default function ProductsClient() {
                             Join our global network of satisfied clients who trust us for their agricultural commodity needs.
                         </p>
                         <div className="flex flex-wrap justify-center gap-4">
-                            <button className="bg-primary text-background-dark px-10 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/20 transition-all">
-                                Request Quote
-                            </button>
+                            <Link href="/contact">
+                                <button className="bg-primary text-background-dark px-10 py-4 rounded-xl font-bold text-lg hover:shadow-xl hover:shadow-primary/20 transition-all">
+                                    Request Quote
+                                </button>
+                            </Link>
                             <button className="bg-white/50 dark:bg-white/5 backdrop-blur-sm border border-neutral-200 dark:border-neutral-700 px-10 py-4 rounded-xl font-bold text-lg hover:bg-white dark:hover:bg-white/10 text-[#1c170d] dark:text-[#fcfbf8] transition-all">
                                 View Catalog
                             </button>

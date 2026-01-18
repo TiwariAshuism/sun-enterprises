@@ -56,7 +56,7 @@ export default function Hero({ data }: { data: any }) {
                     onEnded={handleVideoEnd}
                     preload="auto"
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-white/90 via-white/40 to-white/10 dark:from-background-dark/90 dark:via-background-dark/50 dark:to-background-dark/20" />
+                <div className="absolute inset-0 bg-gradient-to-b from-white/95 via-white/60 to-white/30 dark:from-background-dark/90 dark:via-background-dark/50 dark:to-background-dark/20" />
                 <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background-light dark:from-background-dark to-transparent" />
             </motion.div>
 
@@ -90,7 +90,7 @@ export default function Hero({ data }: { data: any }) {
 
                 <motion.p
                     variants={itemVariants}
-                    className="text-lg md:text-xl text-white max-w-2xl font-normal leading-relaxed"
+                    className="text-lg md:text-xl text-charcoal dark:text-white max-w-2xl font-semibold leading-relaxed drop-shadow-lg"
                 >
                     {data.subheadline}
                 </motion.p>

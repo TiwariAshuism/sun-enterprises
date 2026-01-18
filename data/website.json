@@ -22,7 +22,7 @@
         "social": {
             "twitter": "#",
             "linkedin": "https://www.linkedin.com/in/sun-enterprises91/",
-            "facebook": "#",
+            "facebook": "https://www.facebook.com/share/14RqB45AVwB/?mibextid=wwXIfr",
             "instagram": "https://www.instagram.com/sunenterprises.ind.in/"
         }
     },
@@ -168,20 +168,20 @@
         "headline": "Legacy of trust and excellence",
         "items": [
             {
-                "value": "28+",
-                "label": "Years in Business"
+                "value": "40+",
+                "label": "Export Countries Network"
             },
             {
-                "value": "3rd Gen",
-                "label": "Family Owned"
+                "value": "400000+",
+                "label": "MT Rice Annually Shipped"
             },
             {
-                "value": "Pan-India",
-                "label": "Supply Network"
+                "value": "7+",
+                "label": "Quality Certifications"
             },
             {
-                "value": "APEDA",
-                "label": "Registered Exporter"
+                "value": "150000",
+                "label": "MT of Milling Capacity"
             }
         ]
     },
@@ -202,5 +202,117 @@
                 "href": "#"
             }
         ]
+    },
+    "exportServices": {
+        "hero": {
+            "badge": "Export Excellence",
+            "headline": "Global Export",
+            "highlightedWord": "Services",
+            "subheadline": "From procurement to delivery – comprehensive export solutions for premium Indian agricultural commodities"
+        },
+        "process": {
+            "headline": "Our Export Process",
+            "subheadline": "Seamless journey from farm to your warehouse",
+            "steps": [
+                {
+                    "icon": "agriculture",
+                    "title": "Procurement",
+                    "description": "Direct sourcing from trusted farmers and millers across India's prime agricultural zones"
+                },
+                {
+                    "icon": "science",
+                    "title": "Quality Testing",
+                    "description": "NABL lab testing, sortex cleaning, and moisture control for every batch"
+                },
+                {
+                    "icon": "package",
+                    "title": "Processing & Packing",
+                    "description": "State-of-the-art processing with food-grade packaging as per international standards"
+                },
+                {
+                    "icon": "local_shipping",
+                    "title": "Export & Delivery",
+                    "description": "Complete documentation, fumigation, and timely shipping to your destination"
+                }
+            ]
+        },
+        "services": {
+            "headline": "Comprehensive Services",
+            "items": [
+                {
+                    "icon": "inventory",
+                    "title": "Warehousing",
+                    "features": [
+                        "Temperature-controlled storage",
+                        "Pest-free environment",
+                        "FIFO inventory management",
+                        "Real-time stock monitoring"
+                    ]
+                },
+                {
+                    "icon": "description",
+                    "title": "Documentation",
+                    "features": [
+                        "Phytosanitary certificates",
+                        "Certificate of Origin",
+                        "Fumigation certificates",
+                        "Custom clearance support"
+                    ]
+                },
+                {
+                    "icon": "swap_horiz",
+                    "title": "Logistics",
+                    "features": [
+                        "Container booking",
+                        "Multi-modal transport",
+                        "Port handling",
+                        "Door-to-door delivery"
+                    ]
+                }
+            ]
+        },
+        "quality": {
+            "badge": "Quality First",
+            "headline": "World-Class Quality Standards",
+            "description": "Every shipment undergoes rigorous quality checks and meets international food safety standards.",
+            "points": [
+                {
+                    "icon": "verified",
+                    "title": "Certified Labs",
+                    "description": "NABL-accredited laboratory testing for every shipment"
+                },
+                {
+                    "icon": "search",
+                    "title": "Pre-Shipment Inspection",
+                    "description": "Optional SGS/Bureau Veritas inspection available"
+                },
+                {
+                    "icon": "shield",
+                    "title": "Food Safety",
+                    "description": "FSSAI, ISO, and Halal certifications"
+                },
+                {
+                    "icon": "track_changes",
+                    "title": "Traceability",
+                    "description": "Complete batch tracking from farm to port"
+                }
+            ]
+        },
+        "cta": {
+            "headline": "Ready to Start Your Export Journey?",
+            "description": "Let's discuss your requirements and create a customized export solution for your business.",
+            "buttons": [
+                {
+                    "text": "Get Export Quote",
+                    "href": "/contact",
+                    "type": "primary"
+                },
+                {
+                    "text": "View Products",
+                    "href": "/products",
+                    "type": "secondary"
+                }
+            ]
+        }
     }
 }

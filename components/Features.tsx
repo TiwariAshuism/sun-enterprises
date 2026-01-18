@@ -31,7 +31,7 @@ export default function Features({ data }: { data: any[] }) {
     };
 
     return (
-        <section ref={ref} className="w-full bg-background-light dark:bg-background-dark py-24 px-6">
+        <section ref={ref} className="w-full bg-white dark:bg-gray-900 py-24 px-6">
             <motion.div
                 variants={containerVariants}
                 initial="hidden"
@@ -43,20 +43,20 @@ export default function Features({ data }: { data: any[] }) {
                         key={idx}
                         variants={cardVariants}
                         whileHover={{ y: -10, scale: 1.02 }}
-                        className="group p-8 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer"
+                        className="group p-8 rounded-2xl bg-background-light dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 shadow-lg hover:shadow-2xl hover:border-primary transition-all duration-300 cursor-pointer"
                     >
                         <motion.div
                             whileHover={{ rotate: 360, scale: 1.1 }}
                             transition={{ duration: 0.6 }}
-                            className="size-12 rounded-xl bg-primary/20 flex items-center justify-center text-primary mb-6 group-hover:bg-primary group-hover:text-charcoal transition-colors duration-300"
+                            className="size-14 rounded-xl bg-primary flex items-center justify-center text-charcoal mb-6 shadow-md"
                         >
-                            <span className="material-symbols-outlined text-3xl">{feature.icon}</span>
+                            <span className="material-symbols-outlined text-3xl font-bold">{feature.icon}</span>
                         </motion.div>
                         <motion.h3
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.2 }}
-                            className="text-xl font-bold text-charcoal dark:text-white mb-3"
+                            className="text-2xl font-bold text-charcoal dark:text-white mb-4"
                         >
                             {feature.title}
                         </motion.h3>
@@ -64,7 +64,7 @@ export default function Features({ data }: { data: any[] }) {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.3 }}
-                            className="text-charcoal-muted dark:text-gray-400 leading-relaxed"
+                            className="text-gray-600 dark:text-gray-300 leading-relaxed text-base"
                         >
                             {feature.description}
                         </motion.p>

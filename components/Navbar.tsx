@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
 import { usePathname } from 'next/navigation';
@@ -77,11 +78,17 @@ export default function Navbar({ data }: { data: any }) {
             <div className="relative z-50 max-w-[1200px] mx-auto px-6 h-20 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-3 group cursor-pointer" onClick={() => handleLinkClick('/')}>
                     <motion.div
-                        whileHover={{ rotate: 180, scale: 1.1 }}
-                        transition={{ duration: 0.5 }}
-                        className="size-8 text-primary flex items-center justify-center"
+                        whileHover={{ scale: 1.05 }}
+                        transition={{ duration: 0.3 }}
+                        className="relative h-16 w-32 flex items-center justify-center"
                     >
-                        <span className="material-symbols-outlined text-3xl">{data.site.logo}</span>
+                        <Image
+                            src="/images/logo.png"
+                            alt={data.site.name}
+                            width={120}
+                            height={60}
+                            className="object-contain"
+                        />
                     </motion.div>
                     <motion.h1
                         initial={{ opacity: 0, x: -20 }}

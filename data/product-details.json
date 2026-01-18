@@ -1,0 +1,409 @@
+{
+    "tuna": {
+        "name": "Canned Tuna",
+        "category": "Marine",
+        "description": "The factory primary's product is Canned Tuna, packaged in three different weight classifications in easy open ends tin cans of 100 grams, 160 grams and 185 grams.",
+        "image": "/images/products/tuna.jpg",
+        "packingTypes": [
+            {
+                "size": "100g",
+                "image": "/images/products/tuna-100g.jpg",
+                "description": "Compact size, perfect for single servings"
+            },
+            {
+                "size": "160g",
+                "image": "/images/products/tuna-160g.jpg",
+                "description": "Medium size, ideal for meals"
+            },
+            {
+                "size": "185g",
+                "image": "/images/products/tuna-185g.jpg",
+                "description": "Large size, great value"
+            }
+        ],
+        "byProducts": [
+            {
+                "name": "Fish Oil",
+                "description": "By products in canning process are utilized to produce Fish Oil stored and transported in 200 Litre drum or flexible storage tank."
+            },
+            {
+                "name": "Fish Meal",
+                "description": "Fish Meal packed in 40kg or 50kg polypropylene bag, used as an animal feed, agricultural fertilizer and animal farms."
+            }
+        ],
+        "specifications": {
+            "presentation": [
+                {
+                    "canSize": "185g",
+                    "typeOfPacking": "Solid",
+                    "normalNetWeight": "185g",
+                    "drainedWeight": "125-130g",
+                    "capacityOfCartons": "48 cans Or 24 cans"
+                },
+                {
+                    "canSize": "160g",
+                    "typeOfPacking": "Solid",
+                    "normalNetWeight": "160g",
+                    "drainedWeight": "112-115g",
+                    "capacityOfCartons": "48 cans Or 24 cans"
+                },
+                {
+                    "canSize": "100g",
+                    "typeOfPacking": "Solid",
+                    "normalNetWeight": "100g",
+                    "drainedWeight": "65-70g",
+                    "capacityOfCartons": "48 cans"
+                }
+            ],
+            "ingredients": [
+                {
+                    "name": "Raw Material",
+                    "description": "All products of canned tuna are manufacturing from fresh & frozen top quality of 70% Yellowfin Tuna Meat"
+                },
+                {
+                    "name": "Packing Media",
+                    "description": "Sunflower oil 30% high refined oil with good quality"
+                },
+                {
+                    "name": "Salt",
+                    "description": "Table Salt 0.800%"
+                }
+            ],
+            "qualityFactors": {
+                "moisture": "60-65%",
+                "salt": "1%",
+                "ph": "5.6",
+                "colorOfMeat": "White"
+            },
+            "defectTolerance": [
+                "No Foreign Matter: e.g. stone, wood, glass, metal",
+                "No spongy meat",
+                "No green meat pieces"
+            ],
+            "finishedProducts": {
+                "shelfLife": "2 years",
+                "tinType": "Easy open lid"
+            }
+        }
+    },
+    "rice": {
+        "name": "Premium Rice",
+        "category": "Grains",
+        "description": "Ours is a name reckoned among the leading manufacturers of matchless quality rice grains. We're a professional in escalating high volumes of producing nutritious & non-polished rice across the globe.",
+        "image": "/images/products/rice.jpg",
+        "varieties": [
+            {
+                "name": "1121 Creamy Sella",
+                "type": "Pusa Steam White",
+                "length": "8.35 MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "Premium quality 1121 Basmati rice with creamy sella processing. Known for its extra-long grains and aromatic fragrance."
+            },
+            {
+                "name": "1121 Golden Sella",
+                "type": "Pusa Basmati Rice Golden",
+                "length": "8.30 MM",
+                "image": "/images/products/1121-golden.png",
+                "details": "Golden parboiled 1121 Basmati rice, retains more nutrients and has excellent cooking properties with non-sticky grains."
+            },
+            {
+                "name": "1121 Steam",
+                "type": "Pusa Steam White",
+                "length": "8.35 MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "Steamed 1121 Basmati rice with superior grain length and excellent cooking characteristics. Ideal for biryani and pulao."
+            },
+            {
+                "name": "Pusa / DB STEAM",
+                "type": "Pusa Basmati Rice Golden",
+                "length": "7.55 MM",
+                "image": "/images/products/1121-golden.png",
+                "details": "Traditional Pusa Basmati variety processed with steam, offering authentic aroma and taste."
+            },
+            {
+                "name": "Pusa / DB Creamy Sella",
+                "type": "Pusa Basmati Rice",
+                "length": "7.50 MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "Creamy sella Pusa Basmati with perfect texture and longer shelf life. Excellent for daily consumption."
+            },
+            {
+                "name": "Pusa /DB Raw",
+                "type": "Pusa Basmati Rice",
+                "length": "6.20 MM",
+                "image": "/images/products/rice.jpg",
+                "details": "Raw Pusa Basmati rice, unprocessed and natural, perfect for traditional cooking methods."
+            },
+            {
+                "name": "Pusa / DB Golden Sella",
+                "type": "Pusa Basmati Rice Golden",
+                "length": "7.40 MM",
+                "image": "/images/products/1121-golden.png",
+                "details": "Golden parboiled Pusa Basmati, nutrient-rich with improved cooking quality and grain separation."
+            },
+            {
+                "name": "1401 Creamy Sella",
+                "type": "1401 Basmati",
+                "length": "7.80+ MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "Premium 1401 variety with creamy sella processing. Long grains with excellent aroma and taste."
+            },
+            {
+                "name": "Sharbati Raw",
+                "type": "Pusa Steam White",
+                "length": "8.7 MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "Extra-long grain Sharbati rice in raw form. Known for its exceptional length and premium quality."
+            },
+            {
+                "name": "Sharbati Steam",
+                "type": "Pusa Steam White",
+                "length": "8.7 MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "Steamed Sharbati rice with extra-long grains. Perfect for special occasions and premium dishes."
+            },
+            {
+                "name": "Sharbati Creamy Sella",
+                "type": "Pusa Basmati Rice Golden",
+                "length": "6.90+ MM",
+                "image": "/images/products/1121-golden.png",
+                "details": "Sharbati variety with creamy sella processing, offering excellent cooking quality and grain elongation."
+            },
+            {
+                "name": "Sharbati Golden Sella",
+                "type": "Pusa Basmati Rice Golden",
+                "length": "6.90+ MM",
+                "image": "/images/products/1121-golden.png",
+                "details": "Golden parboiled Sharbati rice with rich color and enhanced nutritional value."
+            },
+            {
+                "name": "PR 14 Creamy Sella",
+                "type": "PR 14 Basmati",
+                "length": "6.80 MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "PR 14 variety with creamy sella processing. Cost-effective option with good cooking properties."
+            },
+            {
+                "name": "PR 14 Steam",
+                "type": "Pusa Steam White",
+                "length": "6.85 MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "Steamed PR 14 Basmati rice, offering excellent value with good grain quality."
+            },
+            {
+                "name": "PR 14 Golden Sella",
+                "type": "Pusa Basmati Rice Golden",
+                "length": "6.80 MM",
+                "image": "/images/products/1121-golden.png",
+                "details": "Golden parboiled PR 14 rice with improved shelf life and cooking characteristics."
+            },
+            {
+                "name": "1509 Golden Sella",
+                "type": "Pusa Basmati Rice Golden",
+                "length": "8.35+ MM",
+                "image": "/images/products/1121-golden.png",
+                "details": "Premium 1509 variety with golden sella processing. Extra-long grains with excellent aroma."
+            },
+            {
+                "name": "1509 Creamy Sella",
+                "type": "1509 Basmati",
+                "length": "8.40+ MM",
+                "image": "/images/products/1121-steam-white.png",
+                "details": "1509 Basmati with creamy sella processing. Superior quality with exceptional grain length and taste."
+            }
+        ],
+        "packingTypes": [
+            {
+                "size": "25kg",
+                "description": "PP bags with inner lining"
+            },
+            {
+                "size": "50kg",
+                "description": "Jute or PP bags"
+            },
+            {
+                "size": "Custom",
+                "description": "Available as per buyer requirement"
+            }
+        ],
+        "specifications": {
+            "qualityFactors": {
+                "moisture": "Max 12-13%",
+                "brokenGrains": "Max 1-5%",
+                "averageGrainLength": "6.2-8.7mm (varies by variety)",
+                "purity": "95-99%"
+            },
+            "certifications": [
+                "Phytosanitary Certificate",
+                "Certificate of Origin",
+                "Quality Analysis Report",
+                "Fumigation Certificate"
+            ],
+            "finishedProducts": {
+                "shelfLife": "12-24 months",
+                "storage": "Cool, dry place away from moisture"
+            }
+        }
+    },
+    "wheat": {
+        "name": "Premium Wheat",
+        "category": "Grains",
+        "description": "Being a respected exporter of wheat in the global agro-food products market, we abide by all international standards. Clients obtain superior quality wheat sourced from the best fields.",
+        "image": "/images/products/wheat.jpg",
+        "varieties": [
+            "Durum Wheat",
+            "Hard Red Winter Wheat",
+            "Soft White Wheat",
+            "Spring Wheat"
+        ],
+        "packingTypes": [
+            {
+                "size": "50kg",
+                "description": "PP bags with inner lining"
+            },
+            {
+                "size": "Bulk",
+                "description": "Container loads"
+            }
+        ],
+        "specifications": {
+            "qualityFactors": {
+                "moisture": "Max 12-14%",
+                "protein": "11-14%",
+                "testWeight": "78-82 kg/hl",
+                "foreignMatter": "Max 2%"
+            },
+            "certifications": [
+                "Phytosanitary Certificate",
+                "Certificate of Origin",
+                "Quality Test Report"
+            ],
+            "finishedProducts": {
+                "shelfLife": "12 months",
+                "storage": "Dry, well-ventilated warehouse"
+            }
+        }
+    },
+    "sugar": {
+        "name": "Refined Sugar",
+        "category": "Commodities",
+        "description": "Engaged in merchanting, wholesale distribution, and branded retail. Our strength in sourcing sugar lies in our relationship with top-tier producers and refined logistical networks.",
+        "image": "/images/products/sugar.jpg",
+        "varieties": [
+            "ICUMSA 45 White Sugar",
+            "ICUMSA 100-150",
+            "Raw Brown Sugar",
+            "Organic Sugar"
+        ],
+        "packingTypes": [
+            {
+                "size": "50kg",
+                "description": "PP bags"
+            },
+            {
+                "size": "1kg",
+                "description": "Retail packs"
+            },
+            {
+                "size": "Bulk",
+                "description": "Jumbo bags"
+            }
+        ],
+        "specifications": {
+            "qualityFactors": {
+                "polarization": "99.8% minimum",
+                "moisture": "Max 0.04%",
+                "color": "45 ICUMSA",
+                "ash": "Max 0.04%"
+            },
+            "finishedProducts": {
+                "shelfLife": "24 months",
+                "storage": "Dry conditions, ambient temperature"
+            }
+        }
+    },
+    "veg-oil": {
+        "name": "Vegetable Cooking Oil",
+        "category": "Commodities",
+        "description": "The company exports vegetable cooking oil, 100% refined, in retail (PET bottles) and Jerry Cans under private labeling. Over the past years, we have attained global excellence.",
+        "image": "/images/products/veg-oil.jpg",
+        "varieties": [
+            "Sunflower Oil",
+            "Palm Oil",
+            "Soybean Oil",
+            "Canola Oil",
+            "Blended Vegetable Oil"
+        ],
+        "packingTypes": [
+            {
+                "size": "1L - 5L",
+                "description": "PET bottles for retail"
+            },
+            {
+                "size": "10L - 20L",
+                "description": "Jerry Cans"
+            },
+            {
+                "size": "Bulk",
+                "description": "Flexitanks or drums"
+            }
+        ],
+        "specifications": {
+            "qualityFactors": {
+                "freefatty": "Max 0.1%",
+                "moisture": "Max 0.1%",
+                "peroxideValue": "Max 1.0 meq/kg",
+                "iodineValue": "120-143"
+            },
+            "finishedProducts": {
+                "shelfLife": "18-24 months",
+                "storage": "Cool, dark place"
+            }
+        }
+    },
+    "specialty": {
+        "name": "Specialty Crops & Pulses",
+        "category": "Grains",
+        "description": "We have been steering the export of various pulses and specialty crops, especially in the Middle East and Africa, satisfying the high consumption demands of these regions.",
+        "image": "/images/products/specialty.jpg",
+        "varieties": [
+            "Chana (Chickpeas)",
+            "Masoor (Lentils)",
+            "Moong (Mung Beans)",
+            "Urad (Black Gram)",
+            "Toor (Pigeon Peas)",
+            "Kidney Beans"
+        ],
+        "packingTypes": [
+            {
+                "size": "25kg",
+                "description": "PP bags"
+            },
+            {
+                "size": "50kg",
+                "description": "Jute bags"
+            },
+            {
+                "size": "Custom",
+                "description": "As per requirement"
+            }
+        ],
+        "specifications": {
+            "qualityFactors": {
+                "moisture": "Max 12-14%",
+                "purity": "98-99%",
+                "admixture": "Max 1-2%",
+                "damagedGrains": "Max 1%"
+            },
+            "certifications": [
+                "Phytosanitary Certificate",
+                "Fumigation Certificate",
+                "Quality Certificate"
+            ],
+            "finishedProducts": {
+                "shelfLife": "12-18 months",
+                "storage": "Cool, dry, pest-free environment"
+            }
+        }
+    }
+}

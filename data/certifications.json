@@ -1,0 +1,30 @@
+[
+    {
+        "name": "FSSAI",
+        "logo": "/images/certifications/Fassai.png"
+    },
+    {
+        "name": "FDA",
+        "logo": "/images/certifications/FDA.png"
+    },
+    {
+        "name": "GMP",
+        "logo": "/images/certifications/GMP.png"
+    },
+    {
+        "name": "HACCP",
+        "logo": "/images/certifications/HACCP.png"
+    },
+    {
+        "name": "Halal Certified",
+        "logo": "/images/certifications/Halal.png"
+    },
+    {
+        "name": "ISO",
+        "logo": "/images/certifications/ISO.png"
+    },
+    {
+        "name": "Kosher",
+        "logo": "/images/certifications/Kosher.png"
+    }
+]
