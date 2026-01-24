@@ -78,16 +78,16 @@ export default function ProductDetailPage() {
             </section>
 
             {/* Varieties Section */}
-            {'varieties' in details && details.varieties && (
+            {(details as any).varieties && (
                 <section className="container mx-auto px-6 mb-16">
                     <h2 className="text-3xl font-bold text-charcoal dark:text-white mb-8">
                         {productId === 'rice' ? 'Available Rice Varieties' : 'Available Varieties'}
                     </h2>
 
                     {/* Check if varieties are objects (Rice) or strings (other products) */}
-                    {typeof details.varieties[0] === 'object' ? (
+                    {typeof (details as any).varieties[0] === 'object' ? (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {details.varieties.map((variety: any, index: number) => (
+                            {(details as any).varieties.map((variety: any, index: number) => (
                                 <motion.div
                                     key={index}
                                     initial={{ opacity: 0, y: 20 }}
@@ -165,7 +165,7 @@ export default function ProductDetailPage() {
                         </div>
                     ) : (
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {(details.varieties as string[]).map((variety: string, index: number) => (
+                            {((details as any).varieties as string[]).map((variety: string, index: number) => (
                                 <motion.div
                                     key={index}
                                     initial={{ opacity: 0, y: 20 }}
@@ -222,11 +222,11 @@ export default function ProductDetailPage() {
             )}
 
             {/* By Products (for Tuna) */}
-            {'byProducts' in details && details.byProducts && (
+            {(details as any).byProducts && (
                 <section className="container mx-auto px-6 mb-16">
                     <h2 className="text-3xl font-bold text-charcoal dark:text-white mb-8">By-Products</h2>
                     <div className="grid md:grid-cols-2 gap-8">
-                        {details.byProducts.map((byProduct: any, index: number) => (
+                        {(details as any).byProducts.map((byProduct: any, index: number) => (
                             <motion.div
                                 key={index}
                                 initial={{ opacity: 0, y: 20 }}
@@ -250,7 +250,7 @@ export default function ProductDetailPage() {
                     <h2 className="text-3xl font-bold text-charcoal dark:text-white mb-8">Product Specifications</h2>
 
                     {/* Presentation Table (for Tuna) */}
-                    {'presentation' in details.specifications && details.specifications.presentation && (
+                    {(details.specifications as any).presentation && (
                         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden mb-8 border-2 border-gray-200 dark:border-gray-700">
                             <div className="bg-primary px-6 py-4">
                                 <h3 className="text-xl font-bold text-charcoal">Presentation: Types of Products</h3>
@@ -267,7 +267,7 @@ export default function ProductDetailPage() {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {details.specifications.presentation.map((item: any, index: number) => (
+                                        {(details.specifications as any).presentation.map((item: any, index: number) => (
                                             <tr key={index} className="border-t border-gray-200 dark:border-gray-700">
                                                 <td className="px-6 py-4 text-gray-600 dark:text-gray-400 font-semibold">{item.canSize}</td>
                                                 <td className="px-6 py-4 text-gray-600 dark:text-gray-400">{item.typeOfPacking}</td>
@@ -283,11 +283,11 @@ export default function ProductDetailPage() {
                     )}
 
                     {/* Ingredients */}
-                    {'ingredients' in details.specifications && details.specifications.ingredients && (
+                    {(details.specifications as any).ingredients && (
                         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mb-8">
                             <h3 className="text-2xl font-bold text-charcoal dark:text-white mb-6">Ingredients</h3>
                             <div className="space-y-4">
-                                {details.specifications.ingredients.map((ingredient: any, index: number) => (
+                                {(details.specifications as any).ingredients.map((ingredient: any, index: number) => (
                                     <div key={index} className="border-l-4 border-primary pl-4">
                                         <h4 className="font-bold text-charcoal dark:text-white mb-2">{ingredient.name}</h4>
                                         <p className="text-gray-600 dark:text-gray-400">{ingredient.description}</p>
@@ -315,11 +315,11 @@ export default function ProductDetailPage() {
                     )}
 
                     {/* Defect Tolerance */}
-                    {'defectTolerance' in details.specifications && details.specifications.defectTolerance && (
+                    {(details.specifications as any).defectTolerance && (
                         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mb-8 border-2 border-gray-200 dark:border-gray-700">
                             <h3 className="text-2xl font-bold text-charcoal dark:text-white mb-6">Defect Tolerance</h3>
                             <ul className="space-y-3">
-                                {details.specifications.defectTolerance.map((item: string, index: number) => (
+                                {(details.specifications as any).defectTolerance.map((item: string, index: number) => (
                                     <li key={index} className="flex items-center text-gray-600 dark:text-gray-400">
                                         <span className="material-symbols-outlined text-green-500 mr-3">
                                             check_circle
@@ -332,11 +332,11 @@ export default function ProductDetailPage() {
                     )}
 
                     {/* Certifications */}
-                    {'certifications' in details.specifications && details.specifications.certifications && (
+                    {(details.specifications as any).certifications && (
                         <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mb-8 border-2 border-gray-200 dark:border-gray-700">
                             <h3 className="text-2xl font-bold text-charcoal dark:text-white mb-6">Certifications</h3>
                             <div className="grid md:grid-cols-2 gap-4">
-                                {details.specifications.certifications.map((cert: string, index: number) => (
+                                {(details.specifications as any).certifications.map((cert: string, index: number) => (
                                     <div key={index} className="flex items-center p-4 bg-primary/10 rounded-lg">
                                         <span className="material-symbols-outlined text-primary mr-3">
                                             verified
