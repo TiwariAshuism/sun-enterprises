@@ -31,7 +31,7 @@ export default function Features({ data }: { data: any[] }) {
     };
 
     return (
-        <section ref={ref} className="w-full bg-white dark:bg-gray-900 py-24 px-6">
+        <section ref={ref} className="w-full bg-background-light dark:bg-gray-900 py-24 px-6">
             <motion.div
                 variants={containerVariants}
                 initial="hidden"
@@ -43,7 +43,7 @@ export default function Features({ data }: { data: any[] }) {
                         key={idx}
                         variants={cardVariants}
                         whileHover={{ y: -10, scale: 1.02 }}
-                        className="group p-8 rounded-2xl bg-background-light dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 shadow-lg hover:shadow-2xl hover:border-primary transition-all duration-300 cursor-pointer"
+                        className="group p-8 rounded-2xl bg-card-light dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700 shadow-lg hover:shadow-2xl hover:border-primary transition-all duration-300 cursor-pointer"
                     >
                         <motion.div
                             whileHover={{ rotate: 360, scale: 1.1 }}

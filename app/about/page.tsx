@@ -79,7 +79,7 @@ export default function AboutPage() {
             </section>
 
             {/* Timeline */}
-            <section className="bg-white dark:bg-zinc-900/50 py-32">
+            <section className="bg-background-light dark:bg-zinc-900/50 py-32">
                 <div className="max-w-4xl mx-auto px-6">
                     <motion.h2
                         initial={{ opacity: 0, y: 30 }}
@@ -182,8 +182,8 @@ export default function AboutPage() {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className={`px-8 py-4 rounded-full font-bold text-lg transition-all ${button.type === 'primary'
-                                        ? 'bg-primary text-charcoal hover:shadow-lg'
-                                        : 'bg-transparent border-2 border-gray-200 dark:border-gray-800 text-charcoal dark:text-white hover:bg-gray-50 dark:hover:bg-zinc-900'
+                                    ? 'bg-primary text-charcoal hover:shadow-lg'
+                                    : 'bg-transparent border-2 border-gray-200 dark:border-gray-800 text-charcoal dark:text-white hover:bg-gray-50 dark:hover:bg-zinc-900'
                                     }`}
                             >
                                 {button.text}

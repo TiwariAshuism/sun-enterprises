@@ -38,7 +38,7 @@ export default function Testimonials({ data }: { data: any }) {
     };
 
     return (
-        <section ref={ref} className="w-full bg-white dark:bg-gray-900 py-24 px-6">
+        <section ref={ref} className="w-full bg-background-light dark:bg-gray-900 py-24 px-6">
             <div className="max-w-[1200px] mx-auto">
                 <motion.div
                     variants={headerVariants}
@@ -75,7 +75,7 @@ export default function Testimonials({ data }: { data: any }) {
                             key={idx}
                             variants={cardVariants}
                             whileHover={{ y: -10, scale: 1.03 }}
-                            className="p-8 rounded-2xl bg-background-light dark:bg-background-dark border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-all duration-300 cursor-pointer relative overflow-hidden"
+                            className="p-8 rounded-2xl bg-card-light dark:bg-background-dark border border-gray-100 dark:border-gray-800 hover:shadow-2xl transition-all duration-300 cursor-pointer relative overflow-hidden"
                         >
                             <motion.div
                                 initial={{ scale: 0, opacity: 0 }}

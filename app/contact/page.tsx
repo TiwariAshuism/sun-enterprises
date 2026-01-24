@@ -87,7 +87,7 @@ export default function ContactPage() {
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, delay: 0.3 }}
-                        className="bg-white dark:bg-gray-900 rounded-xl p-8 lg:p-12 shadow-sm border border-gray-200 dark:border-gray-800"
+                        className="bg-card-light dark:bg-gray-900 rounded-xl p-8 lg:p-12 shadow-sm border border-gray-200 dark:border-gray-800"
                     >
                         <h2 className="text-2xl font-bold mb-8 dark:text-white">{data.form.title}</h2>
                         <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">

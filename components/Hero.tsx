@@ -131,10 +131,10 @@ export default function Hero({ data }: { data: any }) {
                 transition={{ repeat: Infinity, duration: 2 }}
                 className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-60"
             >
-                <span className="text-xs font-medium tracking-widest uppercase text-charcoal dark:text-white">
+                <span className="text-xs font-medium tracking-widest uppercase text-white">
                     Scroll
                 </span>
-                <span className="material-symbols-outlined text-charcoal dark:text-white">
+                <span className="material-symbols-outlined text-white">
                     keyboard_arrow_down
                 </span>
             </motion.div>

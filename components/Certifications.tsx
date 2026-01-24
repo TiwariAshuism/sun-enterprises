@@ -64,7 +64,7 @@ export default function Certifications({ certifications }: CertificationsProps) 
     const duplicatedCertifications = [...certifications, ...certifications];
 
     return (
-        <section className="py-20 bg-white dark:bg-gray-900 overflow-hidden">
+        <section className="py-20 bg-background-light dark:bg-gray-900 overflow-hidden">
             <div className="container mx-auto px-6 mb-12">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-bold text-charcoal dark:text-white mb-4">
@@ -84,14 +84,14 @@ export default function Certifications({ certifications }: CertificationsProps) 
                 {duplicatedCertifications.map((cert, index) => (
                     <div
                         key={`${cert.name}-${index}`}
-                        className="flex-shrink-0 w-48 h-32 bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 flex items-center justify-center p-6 border-2 border-gray-200 dark:border-gray-700"
+                        className="flex-shrink-0 w-48 h-32 bg-card-light dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 flex items-center justify-center p-6 border-2 border-gray-200 dark:border-gray-700"
                     >
                         <div className="relative w-full h-full">
                             <Image
                                 src={cert.logo}
                                 alt={cert.name}
                                 fill
-                                className="object-contain filter grayscale hover:grayscale-0 transition-all duration-300"
+                                className="object-contain transition-all duration-300"
                             />
                         </div>
                     </div>

@@ -32,7 +32,7 @@ export default function HomePage() {
             {productsData.map((product) => (
               <div
                 key={product.id}
-                className="group bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-gray-200 dark:border-gray-700"
+                className="group bg-card-light dark:bg-gray-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-2 border-gray-200 dark:border-gray-700"
               >
                 <div className="relative h-64 overflow-hidden">
                   <Image

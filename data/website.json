@@ -19,12 +19,28 @@
             },
             "hours": "Mon-Sat from 9am to 6pm IST"
         },
-        "social": {
-            "twitter": "#",
-            "linkedin": "https://www.linkedin.com/in/sun-enterprises91/",
-            "facebook": "https://www.facebook.com/share/14RqB45AVwB/?mibextid=wwXIfr",
-            "instagram": "https://www.instagram.com/sunenterprises.ind.in/"
-        }
+        "social": [
+            {
+                "platform": "twitter",
+                "icon": "alternate_email",
+                "url": "#"
+            },
+            {
+                "platform": "linkedin",
+                "icon": "work",
+                "url": "https://www.linkedin.com/in/sun-enterprises91/"
+            },
+            {
+                "platform": "facebook",
+                "icon": "thumb_up",
+                "url": "https://www.facebook.com/share/14RqB45AVwB/?mibextid=wwXIfr"
+            },
+            {
+                "platform": "instagram",
+                "icon": "photo_camera",
+                "url": "https://www.instagram.com/sunenterprises.ind.in/"
+            }
+        ]
     },
     "navigation": [
         {

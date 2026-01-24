@@ -28,7 +28,7 @@ export default function Footer({ data, site }: { data: any; site: any }) {
             whileInView="visible"
             viewport={{ once: true }}
             variants={containerVariants}
-            className="w-full bg-white dark:bg-background-dark border-t border-gray-200 dark:border-gray-800 py-12 px-6"
+            className="w-full bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-800 py-12 px-6"
         >
             <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
                 <motion.div
@@ -64,16 +64,18 @@ export default function Footer({ data, site }: { data: any; site: any }) {
                 </motion.div>
 
                 <motion.div variants={itemVariants} className="flex gap-4">
-                    {Object.keys(site.social).map((platform: string, idx: number) => (
+                    {site.social.map((social: any, idx: number) => (
                         <motion.a
                             key={idx}
-                            href={site.social[platform]}
+                            href={social.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             whileHover={{ scale: 1.2, rotate: 10 }}
                             whileTap={{ scale: 0.9 }}
                             className="text-charcoal-muted hover:text-primary transition-colors"
                         >
                             <span className="material-symbols-outlined">
-                                {platform === 'twitter' ? 'alternate_email' : 'public'}
+                                {social.icon}
                             </span>
                         </motion.a>
                     ))}

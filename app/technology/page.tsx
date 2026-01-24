@@ -61,7 +61,7 @@ export default function TechnologyPage() {
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.1 }}
-                                className="relative bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 dark:border-gray-700"
+                                className="relative bg-card-light dark:bg-gray-800 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 dark:border-gray-700"
                             >
                                 <div className="absolute -top-4 -left-4 w-12 h-12 bg-primary rounded-full flex items-center justify-center font-bold text-xl text-charcoal">
                                     {index + 1}
@@ -82,7 +82,7 @@ export default function TechnologyPage() {
             </section>
 
             {/* Key Services */}
-            <section className="py-20 px-6 bg-white dark:bg-gray-900">
+            <section className="py-20 px-6 bg-background-light dark:bg-gray-900">
                 <div className="container mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold text-charcoal dark:text-white mb-4">

@@ -72,7 +72,7 @@ export default function ProductsClient() {
                 {filteredProducts.map((product) => (
                     <div
                         key={product.id}
-                        className="group relative bg-[#f9f8f6] dark:bg-[#252015] rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 border-2 border-gray-300 dark:border-gray-700"
+                        className="group relative bg-card-light dark:bg-[#252015] rounded-2xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 border-2 border-gray-300 dark:border-gray-700"
                     >
                         <div
                             className="aspect-[16/10] w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
