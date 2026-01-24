@@ -1,88 +1,216 @@
 {
-    "tuna": {
-        "name": "Canned Tuna",
-        "category": "Marine",
-        "description": "The factory primary's product is Canned Tuna, packaged in three different weight classifications in easy open ends tin cans of 100 grams, 160 grams and 185 grams.",
-        "image": "/images/products/tuna.jpg",
-        "packingTypes": [
+    "basmati-rice": {
+        "name": "Premium Basmati Rice",
+        "category": "Grains",
+        "description": "World's finest aromatic long-grain rice. Premium Sella (8.35mm), Golden Sella (8.30mm), and Steam (8.35mm) variants. <2% broken premium grade. Sourced directly from Punjab and Haryana mills with complete quality certification.",
+        "image": "/images/products/basmati-rice.jpg",
+        "varieties": [
             {
-                "size": "100g",
-                "image": "/images/products/tuna-100g.jpg",
-                "description": "Compact size, perfect for single servings"
+                "name": "1121 Basmati Creamy Sella",
+                "type": "Extra Long Grain",
+                "length": "8.35 MM",
+                "image": "/images/products/1121-cream-sella.jpg",
+                "details": "Premium quality 1121 Basmati rice with creamy sella processing. Known for its extra-long grains (8.35mm) and aromatic fragrance. Contains aromatic compound 2-acetyl-1-pyrroline giving distinctive pandan-like aroma."
             },
             {
-                "size": "160g",
-                "image": "/images/products/tuna-160g.jpg",
-                "description": "Medium size, ideal for meals"
+                "name": "1121 Basmati Golden Sella",
+                "type": "Extra Long Grain Parboiled",
+                "length": "8.30 MM",
+                "image": "/images/products/1121-golden-sella.jpg",
+                "details": "Golden parboiled 1121 Basmati rice. Retains more nutrients through parboiling process. Excellent cooking properties with non-sticky grains. Best for commercial and bulk orders."
             },
             {
-                "size": "185g",
-                "image": "/images/products/tuna-185g.jpg",
-                "description": "Large size, great value"
+                "name": "1121 Basmati Steam",
+                "type": "Extra Long Grain White",
+                "length": "8.35 MM",
+                "image": "/images/products/1121-steam.jpg",
+                "details": "Steamed 1121 Basmati rice with superior grain length. Excellent grain elongation after cooking. Ideal for biryani, pulao and premium dishes."
+            },
+            {
+                "name": "1509 Basmati Golden Sella",
+                "type": "Extra Long Grain Parboiled",
+                "length": "8.35+ MM",
+                "image": "/images/products/1509-golden.jpg",
+                "details": "Premium 1509 variety with golden sella processing. Extra-long grains with excellent aroma. High elongation ratio and non-sticky texture."
+            },
+            {
+                "name": "1509 Basmati Creamy Sella",
+                "type": "Extra Long Grain",
+                "length": "8.40+ MM",
+                "image": "/images/products/1509-cream.jpg",
+                "details": "1509 Basmati with creamy sella processing. Superior quality with exceptional grain length. Premium aroma and taste profile."
+            },
+            {
+                "name": "Pusa Basmati 1121",
+                "type": "Long Grain",
+                "length": "7.55 MM",
+                "image": "/images/products/pusa-1121.jpg",
+                "details": "Traditional Pusa Basmati variety developed by IARI. Authentic aroma and taste. Good grain elongation and non-sticky after cooking."
+            },
+            {
+                "name": "Pusa Basmati Creamy Sella",
+                "type": "Long Grain",
+                "length": "7.50 MM",
+                "image": "/images/products/pusa-cream.jpg",
+                "details": "Creamy sella Pusa Basmati with perfect texture. Longer shelf life through sella processing. Excellent for daily consumption and export."
+            },
+            {
+                "name": "Pusa Basmati Golden Sella",
+                "type": "Long Grain Parboiled",
+                "length": "7.40 MM",
+                "image": "/images/products/pusa-golden.jpg",
+                "details": "Golden parboiled Pusa Basmati. Nutrient-rich with improved cooking quality. Better grain separation and firmness."
+            },
+            {
+                "name": "Sharbati Basmati Steam",
+                "type": "Extra Long Grain",
+                "length": "8.70 MM",
+                "image": "/images/products/sharbati-steam.jpg",
+                "details": "Sharbati variety with exceptional grain length. Steamed processing for premium quality. Perfect for special occasions and luxury dining."
+            },
+            {
+                "name": "Sharbati Basmati Golden Sella",
+                "type": "Long Grain Parboiled",
+                "length": "6.90+ MM",
+                "image": "/images/products/sharbati-golden.jpg",
+                "details": "Golden parboiled Sharbati rice. Rich golden color with enhanced nutritional value. Excellent cooking quality."
             }
         ],
-        "byProducts": [
+        "packingTypes": [
             {
-                "name": "Fish Oil",
-                "description": "By products in canning process are utilized to produce Fish Oil stored and transported in 200 Litre drum or flexible storage tank."
+                "size": "25kg",
+                "description": "PP bags with inner lining for wholesale"
             },
             {
-                "name": "Fish Meal",
-                "description": "Fish Meal packed in 40kg or 50kg polypropylene bag, used as an animal feed, agricultural fertilizer and animal farms."
+                "size": "50kg",
+                "description": "Jute or PP bags for bulk export"
+            },
+            {
+                "size": "1-10kg",
+                "description": "Retail packs with custom branding available"
             }
         ],
         "specifications": {
-            "presentation": [
-                {
-                    "canSize": "185g",
-                    "typeOfPacking": "Solid",
-                    "normalNetWeight": "185g",
-                    "drainedWeight": "125-130g",
-                    "capacityOfCartons": "48 cans Or 24 cans"
-                },
-                {
-                    "canSize": "160g",
-                    "typeOfPacking": "Solid",
-                    "normalNetWeight": "160g",
-                    "drainedWeight": "112-115g",
-                    "capacityOfCartons": "48 cans Or 24 cans"
-                },
-                {
-                    "canSize": "100g",
-                    "typeOfPacking": "Solid",
-                    "normalNetWeight": "100g",
-                    "drainedWeight": "65-70g",
-                    "capacityOfCartons": "48 cans"
-                }
-            ],
-            "ingredients": [
-                {
-                    "name": "Raw Material",
-                    "description": "All products of canned tuna are manufacturing from fresh & frozen top quality of 70% Yellowfin Tuna Meat"
-                },
-                {
-                    "name": "Packing Media",
-                    "description": "Sunflower oil 30% high refined oil with good quality"
-                },
-                {
-                    "name": "Salt",
-                    "description": "Table Salt 0.800%"
-                }
-            ],
             "qualityFactors": {
-                "moisture": "60-65%",
-                "salt": "1%",
-                "ph": "5.6",
-                "colorOfMeat": "White"
+                "moisture": "Max 12-13%",
+                "brokenGrains": "Max 1-2%",
+                "averageGrainLength": "6.61-8.70mm",
+                "purity": "99% minimum",
+                "admixture": "Max 1%",
+                "aroma": "Contains 2-acetyl-1-pyrroline compound"
             },
-            "defectTolerance": [
-                "No Foreign Matter: e.g. stone, wood, glass, metal",
-                "No spongy meat",
-                "No green meat pieces"
+            "certifications": [
+                "Phytosanitary Certificate",
+                "Certificate of Origin",
+                "Quality Analysis Report (NABL certified)",
+                "Fumigation Certificate",
+                "SGS/Bureau Veritas (Optional)",
+                "Basmati GI Tag certified"
             ],
             "finishedProducts": {
-                "shelfLife": "2 years",
-                "tinType": "Easy open lid"
+                "shelfLife": "18-24 months",
+                "storage": "Cool, dry place away from moisture and direct sunlight",
+                "packaging": "Food-grade PP/Jute bags"
+            }
+        }
+    },
+    "non-basmati-rice": {
+        "name": "Non-Basmati Rice",
+        "category": "Grains",
+        "description": "High-quality non-aromatic rice varieties for daily consumption and commercial use. Includes IR64, Sona Masoori, Swarna, and Parboiled rice. Sourced from Andhra Pradesh, Karnataka, and other premium growing regions.",
+        "image": "/images/products/non-basmati-rice.jpg",
+        "varieties": [
+            {
+                "name": "IR 64 Parboiled",
+                "type": "Long Grain Non-Aromatic",
+                "length": "6.00 MM",
+                "image": "/images/products/ir64-parboiled.jpg",
+                "details": "Most popular non-basmati variety for export. Parboiled for better nutrition retention. Firm texture, non-sticky grains. Ideal for commercial kitchens and bulk consumption."
+            },
+            {
+                "name": "IR 64 Raw (White)",
+                "type": "Long Grain Non-Aromatic",
+                "length": "6.00 MM",
+                "image": "/images/products/ir64-raw.jpg",
+                "details": "Raw white IR64 rice. Cost-effective option for daily meals. Good cooking properties with moderate elongation. Perfect for large-scale catering."
+            },
+            {
+                "name": "Sona Masoori Steam",
+                "type": "Medium Grain",
+                "length": "5.50 MM",
+                "image": "/images/products/sona-masoori.jpg",
+                "details": "Premium medium-grain rice from Andhra Pradesh. Lightweight and aromatic. Low starch content makes it ideal for healthy diets. Popular in South Indian cuisine."
+            },
+            {
+                "name": "Swarna Rice",
+                "type": "Medium Grain",
+                "length": "5.80 MM",
+                "image": "/images/products/swarna.jpg",
+                "details": "High-yielding variety developed by IRRI. Good cooking quality with soft texture. Widely consumed in India. Excellent for daily consumption."
+            },
+            {
+                "name": "Parmal (PR) 11",
+                "type": "Short Grain",
+                "length": "5.20 MM",
+                "image": "/images/products/pr11.jpg",
+                "details": "Short grain variety from Punjab. Good milling recovery. Suitable for making idli, dosa batter. Popular in North India."
+            },
+            {
+                "name": "Parboiled Rice",
+                "type": "Long Grain Parboiled",
+                "length": "6.20 MM",
+                "image": "/images/products/parboiled.jpg",
+                "details": "General parboiled rice variety. Partially precooked in husk. Better nutrient retention. Firmer texture, ideal for fried rice and commercial use."
+            },
+            {
+                "name": "100% Broken Rice",
+                "type": "Broken Grains",
+                "length": "N/A",
+                "image": "/images/products/broken-rice.jpg",
+                "details": "Economical broken rice for animal feed, brewing, or processing industries. Competitive pricing for bulk orders."
+            },
+            {
+                "name": "Ponni Rice (Raw)",
+                "type": "Medium Grain",
+                "length": "5.40 MM",
+                "image": "/images/products/ponni.jpg",
+                "details": "Popular South Indian variety. Soft and fluffy texture after cooking. Rich in nutrients. Ideal for daily meals and traditional dishes."
+            }
+        ],
+        "packingTypes": [
+            {
+                "size": "25kg",
+                "description": "PP bags for wholesale distribution"
+            },
+            {
+                "size": "50kg",
+                "description": "Jute/PP bags for bulk export"
+            },
+            {
+                "size": "Bulk Container",
+                "description": "20ft/40ft container loads"
+            }
+        ],
+        "specifications": {
+            "qualityFactors": {
+                "moisture": "Max 14%",
+                "brokenGrains": "5-25% (varies by grade)",
+                "averageGrainLength": "5.00-6.20mm",
+                "purity": "95-98%",
+                "admixture": "Max 2-5%",
+                "chalkyGrains": "Max 6%"
+            },
+            "certifications": [
+                "Phytosanitary Certificate",
+                "Certificate of Origin",
+                "Quality Test Report",
+                "Fumigation Certificate",
+                "SGS Inspection (Optional)"
+            ],
+            "finishedProducts": {
+                "shelfLife": "12-18 months",
+                "storage": "Dry, well-ventilated warehouse",
+                "packaging": "Food-grade PP/Jute bags, moisture resistant"
             }
         }
     },
@@ -284,95 +412,111 @@
             }
         }
     },
-    "sugar": {
-        "name": "Refined Sugar",
-        "category": "Commodities",
-        "description": "Engaged in merchanting, wholesale distribution, and branded retail. Our strength in sourcing sugar lies in our relationship with top-tier producers and refined logistical networks.",
-        "image": "/images/products/sugar.jpg",
+    "chickpeas": {
+        "name": "Kabuli Chana (White Chickpeas)",
+        "category": "Pulses",
+        "description": "Premium quality Kabuli Chickpeas (Garbanzo Beans) known for their light color, smooth texture, and nutty flavor. Rich in protein and fiber, our chickpeas are machine cleaned and sortexed to ensure consistent size and export-grade purity.",
+        "image": "/images/products/chickpeas.jpg",
         "varieties": [
-            "ICUMSA 45 White Sugar",
-            "ICUMSA 100-150",
-            "Raw Brown Sugar",
-            "Organic Sugar"
+            {
+                "name": "Kabuli Chana 8mm",
+                "type": "Standard Size",
+                "length": "8 MM",
+                "image": "/images/products/kabuli-chana-8mm.jpg",
+                "details": "Standard 8mm size Chickpeas (75-80 count/oz). Perfect for making hummus, bean flour, and traditional curries. Excellent flavor and uniform size."
+            },
+            {
+                "name": "Kabuli Chana 9mm",
+                "type": "Medium Bold",
+                "length": "9 MM",
+                "image": "/images/products/kabuli-chana-9mm.jpg",
+                "details": "Medium large 9mm Chickpeas (58-60 count/oz). Ideal balance of size and texture. Popular for salads, canning, and side dishes."
+            },
+            {
+                "name": "Kabuli Chana 10mm Bold",
+                "type": "Super Bold",
+                "length": "10 MM+",
+                "image": "/images/products/kabuli-chana-10mm.jpg",
+                "details": "Premium 10mm+ Super Bold Chickpeas (42-44 count/oz). The largest and most premium variety. Known for buttery texture and impressive presentation in roasted snacks and gourmet dishes."
+            }
         ],
         "packingTypes": [
+            {
+                "size": "25kg",
+                "description": "PP bags, branding available"
+            },
             {
                 "size": "50kg",
-                "description": "PP bags"
+                "description": "Standard export PP bags"
             },
             {
-                "size": "1kg",
-                "description": "Retail packs"
-            },
-            {
-                "size": "Bulk",
-                "description": "Jumbo bags"
+                "size": "1000kg",
+                "description": "Jumbo/Big bags for bulk industrial use"
             }
         ],
         "specifications": {
             "qualityFactors": {
-                "polarization": "99.8% minimum",
-                "moisture": "Max 0.04%",
-                "color": "45 ICUMSA",
-                "ash": "Max 0.04%"
+                "moisture": "Max 12.0%",
+                "admixture": "Max 1.0%",
+                "brokenGrains": "Max 1.0%",
+                "discolored": "Max 2.0%",
+                "purity": "99% Min",
+                "weevilled": "Nil"
             },
+            "certifications": [
+                "Phytosanitary Certificate",
+                "Certificate of Origin",
+                "Fumigation Certificate",
+                "SGS Quality Report"
+            ],
             "finishedProducts": {
                 "shelfLife": "24 months",
-                "storage": "Dry conditions, ambient temperature"
+                "storage": "Cool, dry place. Fumigation recommended every 3 months.",
+                "packaging": "New PP/Jute bags"
             }
         }
     },
-    "veg-oil": {
-        "name": "Vegetable Cooking Oil",
-        "category": "Commodities",
-        "description": "The company exports vegetable cooking oil, 100% refined, in retail (PET bottles) and Jerry Cans under private labeling. Over the past years, we have attained global excellence.",
-        "image": "/images/products/veg-oil.jpg",
+    "pulses-lentils": {
+        "name": "Indian Pulses & Lentils",
+        "category": "Pulses",
+        "description": "We offer a wide variety of premium Indian pulses and lentils, essential for a balanced diet. Our range includes Red Lentils, Green Mung, Toor Dal, Urad Dal, and Kidney Beans, all sourced from the best growing regions and processed to ensure purity and nutritional value.",
+        "image": "/images/products/pulses-mix.jpg",
         "varieties": [
-            "Sunflower Oil",
-            "Palm Oil",
-            "Soybean Oil",
-            "Canola Oil",
-            "Blended Vegetable Oil"
-        ],
-        "packingTypes": [
             {
-                "size": "1L - 5L",
-                "description": "PET bottles for retail"
+                "name": "Red Lentils (Masoor Dal)",
+                "type": "Whole & Split",
+                "length": "Standard",
+                "image": "/images/products/masoor-dal.jpg",
+                "details": "Available as Football Masoor (Whole Red) and Split Masoor Dal. Quick-cooking, high in protein, and widely used in soups and curries. Max 12% moisture."
             },
             {
-                "size": "10L - 20L",
-                "description": "Jerry Cans"
+                "name": "Green Mung Beans (Moong)",
+                "type": "Whole & Split",
+                "length": "Standard",
+                "image": "/images/products/moong-dal.jpg",
+                "details": "Premium Green Mung beans (Whole) and Split Yellow Moong Dal. Known for sprouting capability and easy digestibility. Uniform size and green color."
             },
             {
-                "size": "Bulk",
-                "description": "Flexitanks or drums"
+                "name": "Toor Dal (Pigeon Peas)",
+                "type": "Oily / Non-Oily",
+                "length": "Standard",
+                "image": "/images/products/toor-dal.jpg",
+                "details": "Staple Indian pulse available in Oily and Non-Oily finishes. Rich nutty flavor, essential for Sambhar and Dal Fry. Max 1% foreign matter."
+            },
+            {
+                "name": "Urad Dal (Black Gram)",
+                "type": "Whole & Split",
+                "length": "Standard",
+                "image": "/images/products/urad-dal.jpg",
+                "details": "Available as Whole Black (Black Matpe), Whole White (Gota), and Split White. Essential for Idli/Dosa batter and Dal Makhani."
+            },
+            {
+                "name": "Kidney Beans (Rajma)",
+                "type": "Red / Speckled",
+                "length": "Large",
+                "image": "/images/products/rajma.jpg",
+                "details": "Premium Red Kidney Beans (Dark/Light) and Speckled (Chitra) varieties. Large kidney-shaped beans rich in iron and protein."
             }
-        ],
-        "specifications": {
-            "qualityFactors": {
-                "freefatty": "Max 0.1%",
-                "moisture": "Max 0.1%",
-                "peroxideValue": "Max 1.0 meq/kg",
-                "iodineValue": "120-143"
-            },
-            "finishedProducts": {
-                "shelfLife": "18-24 months",
-                "storage": "Cool, dark place"
-            }
-        }
-    },
-    "specialty": {
-        "name": "Specialty Crops & Pulses",
-        "category": "Grains",
-        "description": "We have been steering the export of various pulses and specialty crops, especially in the Middle East and Africa, satisfying the high consumption demands of these regions.",
-        "image": "/images/products/specialty.jpg",
-        "varieties": [
-            "Chana (Chickpeas)",
-            "Masoor (Lentils)",
-            "Moong (Mung Beans)",
-            "Urad (Black Gram)",
-            "Toor (Pigeon Peas)",
-            "Kidney Beans"
         ],
         "packingTypes": [
             {
@@ -381,28 +525,31 @@
             },
             {
                 "size": "50kg",
-                "description": "Jute bags"
+                "description": "Jute or PP bags"
             },
             {
-                "size": "Custom",
-                "description": "As per requirement"
+                "size": "Retail",
+                "description": "1kg/2kg consumer packs available"
             }
         ],
         "specifications": {
             "qualityFactors": {
                 "moisture": "Max 12-14%",
-                "purity": "98-99%",
+                "foreignMatter": "Max 1%",
+                "weevilled": "Nil",
                 "admixture": "Max 1-2%",
-                "damagedGrains": "Max 1%"
+                "damaged": "Max 2-3%"
             },
             "certifications": [
                 "Phytosanitary Certificate",
-                "Fumigation Certificate",
-                "Quality Certificate"
+                "Certificate of Origin",
+                "Quality Analysis Report",
+                "SGS Inspection (Optional)"
             ],
             "finishedProducts": {
-                "shelfLife": "12-18 months",
-                "storage": "Cool, dry, pest-free environment"
+                "shelfLife": "12-24 months",
+                "storage": "Cool, dry place",
+                "packaging": "Strong export-quality bags"
             }
         }
     }

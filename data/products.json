@@ -1,11 +1,19 @@
 [
     {
-        "id": "rice",
-        "name": "Rice",
+        "id": "basmati-rice",
+        "name": "Basmati Rice",
         "category": "Grains",
-        "description": "Ours is a name reckoned among the leading manufacturers of matchless quality rice grains. We’re a professional in escalating high volumes of producing nutritious & non-polished rice across the globe.",
-        "image": "/images/products/rice.jpg",
+        "description": "World's finest aromatic long-grain rice. Premium varieties including 1121, 1509, and Pusa Basmati. Extra-long grains (8.35mm+) with distinctive fragrance and exceptional elongation after cooking. Sourced from Punjab, Haryana, and Uttarakhand.",
+        "image": "/images/products/basmati-rice.jpg",
         "icon": "grass"
+    },
+    {
+        "id": "non-basmati-rice",
+        "name": "Non-Basmati Rice",
+        "category": "Grains",
+        "description": "High-quality non-aromatic rice varieties for daily consumption and commercial use. Includes IR64, Sona Masoori, Swarna, and Parboiled rice. Excellent for bulk orders with competitive pricing and consistent quality.",
+        "image": "/images/products/non-basmati-rice.jpg",
+        "icon": "nutrition"
     },
     {
         "id": "wheat",
@@ -16,35 +24,19 @@
         "icon": "grain"
     },
     {
-        "id": "tuna",
-        "name": "Tuna",
-        "category": "Marine",
-        "description": "The factory primary's product is Canned Tuna, packaged in three different weight classifications in easy open ends tin cans of 100 grams, 160 grams, and bulk options.",
-        "image": "/images/products/tuna.jpg",
-        "icon": "sailing"
+        "id": "chickpeas",
+        "name": "Chickpeas (Kabuli Chana)",
+        "category": "Pulses",
+        "description": "Premium quality Kabuli Chickpeas (Garbanzo Beans) known for their light color, smooth texture, and nutty flavor. Available in 8mm, 9mm, and 10mm Bold sizes, machine-cleaned and sortexed for superior quality.",
+        "image": "/images/products/chickpeas.jpg",
+        "icon": "eco"
     },
     {
-        "id": "sugar",
-        "name": "Sugar",
-        "category": "Commodities",
-        "description": "Engaged in merchanting, wholesale distribution, and branded retail. Our strength in sourcing sugar lies in our relationship with top-tier producers and refined logistical networks.",
-        "image": "/images/products/sugar.jpg",
-        "icon": "cookie"
-    },
-    {
-        "id": "veg-oil",
-        "name": "Vegetable Oil",
-        "category": "Commodities",
-        "description": "The company exports vegetable cooking oil, 100% refined, in retail (PET bottles) and Jerry Cans under private labeling. Over the past years, we have attained global excellence.",
-        "image": "/images/products/veg-oil.jpg",
-        "icon": "water_drop"
-    },
-    {
-        "id": "specialty",
-        "name": "Specialty Crops",
-        "category": "Grains",
-        "description": "We have been steering the export of various pulses and specialty crops, especially in the Middle East and Africa, satisfying the high consumption demands of these regions.",
-        "image": "/images/products/specialty.jpg",
-        "icon": "nutrition"
+        "id": "pulses-lentils",
+        "name": "Pulses & Lentils",
+        "category": "Pulses",
+        "description": "Comprehensive range of high-quality Indian lentils and beans including Red Lentils (Masoor), Green Mung, Toor Dal, Urad Dal, and Kidney Beans (Rajma). Processed to meet international export standards.",
+        "image": "/images/products/pulses-mix.jpg",
+        "icon": "restaurant"
     }
 ]
