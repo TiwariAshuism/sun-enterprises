@@ -330,5 +330,36 @@
                 }
             ]
         }
+    },
+    "privateLabeling": {
+        "headline": "PRIVATE LABELING",
+        "subheadline": "Build Your Own Rice Brand with Us",
+        "description": "Elevate your brand with our unrivalled expertise and passion for excellence! Our rich legacy is rooted in our unwavering commitment to turning your brand dreams into reality.",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Select Grade & Variety",
+                "description": "Choose from our premium range of Basmati and Non-Basmati rice varieties. We offer 1121 Basmati, Golden Sella, Steam, IR-64, Sona Masoori and more. Expert guidance to match your market requirements.",
+                "icon": "grade"
+            },
+            {
+                "number": "02",
+                "title": "Custom Packaging Design",
+                "description": "Create distinctive packaging that reflects your brand identity. Our design team works with you to develop eye-catching labels, bags, and packaging materials that meet international standards and stand out on shelves.",
+                "icon": "design_services"
+            },
+            {
+                "number": "03",
+                "title": "Regulatory Compliance of Your Country",
+                "description": "We ensure your product meets all regulatory requirements for your target market. Complete documentation support including nutritional labeling, food safety certificates, and country-specific compliance.",
+                "icon": "verified_user"
+            },
+            {
+                "number": "04",
+                "title": "Logistics & Global Shipping to Your Port",
+                "description": "Seamless delivery to your destination port with complete tracking. We handle container booking, customs clearance, and all shipping documentation to ensure timely arrival of your branded products.",
+                "icon": "local_shipping"
+            }
+        ]
     }
 }

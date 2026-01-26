@@ -7,6 +7,7 @@ import Services from '@/components/Services';
 import Testimonials from '@/components/Testimonials';
 import Stats from '@/components/Stats';
 import Certifications from '@/components/Certifications';
+import PrivateLabeling from '@/components/PrivateLabeling';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -77,6 +78,7 @@ export default function HomePage() {
       </section>
 
       <Certifications certifications={certificationsData} />
+      <PrivateLabeling data={websiteData.privateLabeling} />
       <Services data={websiteData.services} />
       <Testimonials data={websiteData.testimonials} />
       <Stats data={websiteData.stats} />
