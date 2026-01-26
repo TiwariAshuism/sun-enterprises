@@ -197,6 +197,119 @@
                 }
             ]
         },
+        "commitment": {
+            "title": "Our Commitment to Quality & Service",
+            "description": "At Shree Uma Nath Enterprises, quality is the foundation of our reputation. We achieve this through:",
+            "items": [
+                {
+                    "icon": "agriculture",
+                    "title": "Direct Sourcing",
+                    "description": "Working closely with mills, cooperatives, and trusted suppliers to ensure grade consistency"
+                },
+                {
+                    "icon": "science",
+                    "title": "Rigorous Inspection",
+                    "description": "NABL lab testing, moisture control, sortex cleaning, and fumigation as standard practice"
+                },
+                {
+                    "icon": "warehouse",
+                    "title": "Safe Storage",
+                    "description": "Climate-controlled, pest-free warehouses to preserve product freshness"
+                },
+                {
+                    "icon": "local_shipping",
+                    "title": "Efficient Logistics",
+                    "description": "Timely dispatch, professional packaging, and reliable freight coordination"
+                },
+                {
+                    "icon": "description",
+                    "title": "Full Documentation",
+                    "description": "Phytosanitary Certificates, Certificates of Origin, SGS/BV Inspection Reports, and Fumigation Certificates available"
+                }
+            ],
+            "approach": "We operate with a client-first approach, tailoring our services to meet the unique requirements of each buyer—whether it's custom packaging, private labeling, mixed container loads, or flexible payment terms."
+        },
+        "globalExpansion": {
+            "title": "Expanding to Global Markets",
+            "paragraphs": [
+                "After decades of success in the Indian domestic market, we are now ready to bring our expertise to international buyers in the Middle East, Africa, Southeast Asia, and beyond.",
+                "Our decentralized yet connected system—powered by strong local relationships and on-ground procurement teams—allows us to operate with the agility of a small firm and the reliability of an established enterprise.",
+                "We've learned to build our systems around the client, not the other way around.",
+                "Whether you're a first-time importer seeking a trial container, a wholesale distributor looking for consistent supply, or a retail chain needing private-label solutions, we are equipped to deliver with precision and professionalism."
+            ]
+        },
+        "sustainability": {
+            "title": "Sustainability & Responsibility",
+            "description": "We recognize that our business is deeply intertwined with India's natural ecosystems—the soil, water, and seasons that sustain our crops.",
+            "subtitle": "As responsible stewards of these resources, we are committed to:",
+            "items": [
+                {
+                    "icon": "eco",
+                    "title": "Supporting Sustainable Farming",
+                    "description": "Encouraging eco-friendly practices among our partner farms"
+                },
+                {
+                    "icon": "recycling",
+                    "title": "Minimizing Waste",
+                    "description": "Optimizing processing efficiency and reducing packaging waste"
+                },
+                {
+                    "icon": "energy_savings_leaf",
+                    "title": "Eco-Conscious Logistics",
+                    "description": "Partnering with carriers that prioritize fuel efficiency and reduced emissions"
+                }
+            ],
+            "tagline": "We are a green business, committed to growing greener with every harvest and every shipment."
+        },
+        "whyChoose": {
+            "title": "Why Choose Shree Uma Nath Enterprises?",
+            "reasons": [
+                {
+                    "icon": "family_star",
+                    "title": "Three Generations of Expertise",
+                    "description": "Deep knowledge of Indian agriculture and commodity markets"
+                },
+                {
+                    "icon": "public",
+                    "title": "Pan-India Supply Network",
+                    "description": "Direct access to India's top grain and pulse production zones"
+                },
+                {
+                    "icon": "verified",
+                    "title": "Export-Ready Infrastructure",
+                    "description": "APEDA registered, FSSAI licensed, ISO-compliant processes"
+                },
+                {
+                    "icon": "payments",
+                    "title": "Transparent Pricing",
+                    "description": "No hidden costs, competitive FOB/CIF rates"
+                },
+                {
+                    "icon": "account_balance",
+                    "title": "Flexible Terms",
+                    "description": "LC at Sight, DP, T/T Advance—we accommodate genuine buyers"
+                },
+                {
+                    "icon": "high_quality",
+                    "title": "Consistent Quality",
+                    "description": "Same-grade shipments, batch after batch"
+                },
+                {
+                    "icon": "schedule",
+                    "title": "Timely Delivery",
+                    "description": "12-15 day turnaround from order to vessel loading"
+                },
+                {
+                    "icon": "support_agent",
+                    "title": "Customer Support",
+                    "description": "Dedicated relationship managers and real-time communication"
+                }
+            ]
+        },
+        "vision": {
+            "title": "Our Vision",
+            "description": "To be recognized as a globally trusted exporter that bridges the gap between India's rich agricultural heritage and the world's growing demand for premium grains and pulses—while upholding the values of integrity, quality, and sustainability that have defined our family business for three generations."
+        },
         "cta": {
             "title": "Ready to partner with a trusted exporter?",
             "subtitle": "Whether you need a single container trial or a long-term supply contract, we're here to support your requirements.",

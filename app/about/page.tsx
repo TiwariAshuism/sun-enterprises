@@ -139,7 +139,7 @@ export default function AboutPage() {
             </section>
 
             {/* Mission Statement - Redesigned */}
-            <section ref={storyRef} className="py-32 px-6 relative">
+            <section ref={storyRef} className="pt-40 pb-32 px-6 relative">
                 {/* Decorative Elements */}
                 <div className="absolute top-0 left-0 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
                 <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
@@ -229,15 +229,14 @@ export default function AboutPage() {
                             </div>
                         </motion.div>
 
-                        {/* Right: Image Grid */}
-                        <motion.div
+                        {/* Right: Image Grid - Disabled */}
+                        {/* <motion.div
                             initial={{ opacity: 0, x: 50 }}
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
                             className="relative h-[600px]"
                         >
-                            {/* Main Image */}
                             <motion.div
                                 whileHover={{ scale: 1.02 }}
                                 className="absolute top-0 right-0 w-[70%] h-[55%] rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-gray-800"
@@ -250,7 +249,6 @@ export default function AboutPage() {
                                 />
                             </motion.div>
 
-                            {/* Secondary Image */}
                             <motion.div
                                 whileHover={{ scale: 1.02 }}
                                 className="absolute bottom-0 left-0 w-[65%] h-[50%] rounded-2xl overflow-hidden shadow-2xl border-4 border-white dark:border-gray-800"
@@ -263,7 +261,6 @@ export default function AboutPage() {
                                 />
                             </motion.div>
 
-                            {/* Floating Badge */}
                             <motion.div
                                 animate={{ y: [-10, 10, -10] }}
                                 transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
@@ -271,10 +268,10 @@ export default function AboutPage() {
                             >
                                 <div className="text-center">
                                     <span className="material-symbols-outlined text-5xl mb-2">family_star</span>
-                                    <p className="text-xs font-bold uppercase">Three Gen</p>
+                                    <p className="text-xs font-bold uppercase">Team Members</p>
                                 </div>
                             </motion.div>
-                        </motion.div>
+                        </motion.div> */}
                     </div>
                 </div>
             </section>
@@ -319,6 +316,227 @@ export default function AboutPage() {
                             ))}
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* Commitment to Quality */}
+            <section className="py-32 px-6 bg-background-light dark:bg-background-dark">
+                <div className="max-w-7xl mx-auto">
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center mb-16"
+                    >
+                        <span className="inline-block px-4 py-2 bg-primary/10 rounded-full text-primary font-bold text-sm uppercase tracking-wider mb-4">
+                            Our Commitment
+                        </span>
+                        <h2 className="text-4xl md:text-5xl font-bold text-charcoal dark:text-white mb-6">
+                            {data.commitment.title}
+                        </h2>
+                        <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+                            {data.commitment.description}
+                        </p>
+                    </motion.div>
+
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                        {data.commitment.items.map((item: any, idx: number) => (
+                            <motion.div
+                                key={idx}
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: idx * 0.1 }}
+                                whileHover={{ y: -5 }}
+                                className="p-8 bg-card-light dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-all"
+                            >
+                                <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-6">
+                                    <span className="material-symbols-outlined text-primary text-3xl">
+                                        {item.icon}
+                                    </span>
+                                </div>
+                                <h3 className="text-xl font-bold text-charcoal dark:text-white mb-3">
+                                    {item.title}
+                                </h3>
+                                <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                                    {item.description}
+                                </p>
+                            </motion.div>
+                        ))}
+                    </div>
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center p-8 bg-primary/5 rounded-2xl border-2 border-primary/20"
+                    >
+                        <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                            {data.commitment.approach}
+                        </p>
+                    </motion.div>
+                </div>
+            </section>
+
+            {/* Global Expansion */}
+            <section className="py-32 px-6 bg-gradient-to-b from-card-light to-background-light dark:from-gray-900 dark:to-background-dark">
+                <div className="max-w-5xl mx-auto">
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center mb-12"
+                    >
+                        <span className="inline-block px-4 py-2 bg-primary/10 rounded-full text-primary font-bold text-sm uppercase tracking-wider mb-4">
+                            Global Reach
+                        </span>
+                        <h2 className="text-4xl md:text-5xl font-bold text-charcoal dark:text-white mb-8">
+                            {data.globalExpansion.title}
+                        </h2>
+                    </motion.div>
+
+                    <div className="space-y-6">
+                        {data.globalExpansion.paragraphs.map((para: string, idx: number) => (
+                            <motion.p
+                                key={idx}
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: idx * 0.1 }}
+                                className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed text-center"
+                            >
+                                {para}
+                            </motion.p>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Sustainability */}
+            <section className="py-32 px-6 bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950/20 dark:to-emerald-950/20">
+                <div className="max-w-7xl mx-auto">
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center mb-16"
+                    >
+                        <span className="inline-block px-4 py-2 bg-green-600/10 rounded-full text-green-600 dark:text-green-400 font-bold text-sm uppercase tracking-wider mb-4">
+                            Sustainability
+                        </span>
+                        <h2 className="text-4xl md:text-5xl font-bold text-charcoal dark:text-white mb-6">
+                            {data.sustainability.title}
+                        </h2>
+                        <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto mb-4">
+                            {data.sustainability.description}
+                        </p>
+                        <p className="text-lg text-gray-700 dark:text-gray-300 font-semibold">
+                            {data.sustainability.subtitle}
+                        </p>
+                    </motion.div>
+
+                    <div className="grid md:grid-cols-3 gap-8 mb-12">
+                        {data.sustainability.items.map((item: any, idx: number) => (
+                            <motion.div
+                                key={idx}
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: idx * 0.15 }}
+                                whileHover={{ scale: 1.05 }}
+                                className="p-8 bg-white dark:bg-gray-800 rounded-2xl border-2 border-green-200 dark:border-green-900 hover:shadow-xl transition-all text-center"
+                            >
+                                <div className="w-16 h-16 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center mb-6 mx-auto">
+                                    <span className="material-symbols-outlined text-green-600 dark:text-green-400 text-4xl">
+                                        {item.icon}
+                                    </span>
+                                </div>
+                                <h3 className="text-xl font-bold text-charcoal dark:text-white mb-3">
+                                    {item.title}
+                                </h3>
+                                <p className="text-gray-600 dark:text-gray-400">
+                                    {item.description}
+                                </p>
+                            </motion.div>
+                        ))}
+                    </div>
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center p-8 bg-green-600/10 rounded-2xl border-2 border-green-600/20"
+                    >
+                        <p className="text-xl text-green-800 dark:text-green-200 font-semibold italic">
+                            {data.sustainability.tagline}
+                        </p>
+                    </motion.div>
+                </div>
+            </section>
+
+            {/* Why Choose Us */}
+            <section className="py-32 px-6 bg-background-light dark:bg-background-dark">
+                <div className="max-w-7xl mx-auto">
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        className="text-center mb-16"
+                    >
+                        <h2 className="text-4xl md:text-5xl font-bold text-charcoal dark:text-white mb-6">
+                            {data.whyChoose.title}
+                        </h2>
+                    </motion.div>
+
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {data.whyChoose.reasons.map((reason: any, idx: number) => (
+                            <motion.div
+                                key={idx}
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ delay: idx * 0.05 }}
+                                whileHover={{ y: -8, scale: 1.02 }}
+                                className="p-6 bg-card-light dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-primary hover:shadow-lg transition-all"
+                            >
+                                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                                    <span className="material-symbols-outlined text-primary text-2xl">
+                                        {reason.icon}
+                                    </span>
+                                </div>
+                                <h3 className="text-lg font-bold text-charcoal dark:text-white mb-2">
+                                    {reason.title}
+                                </h3>
+                                <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                                    {reason.description}
+                                </p>
+                            </motion.div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* Vision */}
+            <section className="py-32 px-6 bg-gradient-to-br from-primary/10 via-background-light to-primary/5 dark:from-primary/5 dark:via-background-dark dark:to-primary/10">
+                <div className="max-w-5xl mx-auto text-center">
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
+                        className="mb-8"
+                    >
+                        <div className="inline-flex items-center justify-center w-20 h-20 bg-primary rounded-full mb-8">
+                            <span className="material-symbols-outlined text-charcoal text-4xl">
+                                visibility
+                            </span>
+                        </div>
+                        <h2 className="text-4xl md:text-5xl font-bold text-charcoal dark:text-white mb-8">
+                            {data.vision.title}
+                        </h2>
+                        <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 leading-relaxed font-light">
+                            {data.vision.description}
+                        </p>
+                    </motion.div>
                 </div>
             </section>
 
@@ -502,7 +720,7 @@ export default function AboutPage() {
                     </motion.div>
                 </motion.div>
             </section>
-        </main>
+        </main >
     );
 }
 
