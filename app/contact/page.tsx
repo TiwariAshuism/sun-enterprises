@@ -1,15 +1,58 @@
 'use client';
 import { motion } from 'framer-motion';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import pagesData from '@/data/pages.json';
 
 export default function ContactPage() {
     const data = pagesData.contact;
     const formRef = useRef<HTMLFormElement>(null);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState<{
+        type: 'success' | 'error' | null;
+        message: string;
+    }>({ type: null, message: '' });
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        console.log('Form submitted');
+        setIsSubmitting(true);
+        setSubmitStatus({ type: null, message: '' });
+
+        const formData = new FormData(formRef.current!);
+        const data = {
+            name: formData.get('name'),
+            email: formData.get('email'),
+            phone: formData.get('phone'),
+            company: formData.get('company'),
+            subject: formData.get('subject'),
+            message: formData.get('message'),
+        };
+
+        try {
+            const response = await fetch('/api/send-email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            });
+
+            if (response.ok) {
+                setSubmitStatus({
+                    type: 'success',
+                    message: 'Thank you! Your message has been sent successfully. We\'ll get back to you soon.',
+                });
+                formRef.current?.reset();
+            } else {
+                throw new Error('Failed to send message');
+            }
+        } catch (error) {
+            setSubmitStatus({
+                type: 'error',
+                message: 'Oops! Something went wrong. Please try again or email us directly.',
+            });
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (
@@ -82,7 +125,6 @@ export default function ContactPage() {
                         </div>
                     </motion.div>
 
-                    {/* Right Side - Form */}
                     <motion.div
                         initial={{ opacity: 0, x: 50 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -90,6 +132,26 @@ export default function ContactPage() {
                         className="bg-card-light dark:bg-gray-900 rounded-xl p-8 lg:p-12 shadow-sm border border-gray-200 dark:border-gray-800"
                     >
                         <h2 className="text-2xl font-bold mb-8 dark:text-white">{data.form.title}</h2>
+
+                        {/* Status Message */}
+                        {submitStatus.type && (
+                            <motion.div
+                                initial={{ opacity: 0, y: -10 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                className={`mb-6 p-4 rounded-lg border ${submitStatus.type === 'success'
+                                        ? 'bg-green-50 dark:bg-green-900/20 border-green-200 dark:border-green-800 text-green-800 dark:text-green-200'
+                                        : 'bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800 text-red-800 dark:text-red-200'
+                                    }`}
+                            >
+                                <div className="flex items-start gap-3">
+                                    <span className="material-symbols-outlined text-[24px]">
+                                        {submitStatus.type === 'success' ? 'check_circle' : 'error'}
+                                    </span>
+                                    <p className="text-sm font-medium">{submitStatus.message}</p>
+                                </div>
+                            </motion.div>
+                        )}
+
                         <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
                             {data.form.fields.map((field: any, idx: number) => (
                                 <motion.div
@@ -104,6 +166,8 @@ export default function ContactPage() {
                                     </label>
                                     {field.type === 'select' ? (
                                         <motion.select
+                                            name={field.name}
+                                            required={field.required}
                                             whileFocus={{ scale: 1.01 }}
                                             className="flex w-full rounded-lg text-charcoal dark:text-white focus:outline-none focus:ring-2 focus:ring-primary border border-gray-300 dark:border-gray-700 bg-transparent h-14 px-4 text-base transition-all"
                                         >
@@ -113,6 +177,8 @@ export default function ContactPage() {
                                         </motion.select>
                                     ) : field.type === 'textarea' ? (
                                         <motion.textarea
+                                            name={field.name}
+                                            required={field.required}
                                             whileFocus={{ scale: 1.01 }}
                                             className="flex w-full rounded-lg text-charcoal dark:text-white focus:outline-none focus:ring-2 focus:ring-primary border border-gray-300 dark:border-gray-700 bg-transparent placeholder:text-gray-400 p-4 text-base resize-none transition-all"
                                             placeholder={field.placeholder}
@@ -120,6 +186,8 @@ export default function ContactPage() {
                                         />
                                     ) : (
                                         <motion.input
+                                            name={field.name}
+                                            required={field.required}
                                             whileFocus={{ scale: 1.01 }}
                                             className="flex w-full rounded-lg text-charcoal dark:text-white focus:outline-none focus:ring-2 focus:ring-primary border border-gray-300 dark:border-gray-700 bg-transparent h-14 placeholder:text-gray-400 px-4 text-base transition-all"
                                             type={field.type}
@@ -129,12 +197,25 @@ export default function ContactPage() {
                                 </motion.div>
                             ))}
                             <motion.button
-                                whileHover={{ scale: 1.02 }}
-                                whileTap={{ scale: 0.98 }}
+                                whileHover={{ scale: isSubmitting ? 1 : 1.02 }}
+                                whileTap={{ scale: isSubmitting ? 1 : 0.98 }}
                                 type="submit"
-                                className="w-full flex items-center justify-center rounded-lg h-14 px-6 bg-primary text-charcoal text-base font-bold shadow-md shadow-primary/20 transition-all"
+                                disabled={isSubmitting}
+                                className="w-full flex items-center justify-center gap-2 rounded-lg h-14 px-6 bg-primary text-charcoal text-base font-bold shadow-md shadow-primary/20 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                             >
-                                {data.form.submitText}
+                                {isSubmitting ? (
+                                    <>
+                                        <span className="animate-spin material-symbols-outlined">
+                                            progress_activity
+                                        </span>
+                                        Sending...
+                                    </>
+                                ) : (
+                                    <>
+                                        {data.form.submitText}
+                                        <span className="material-symbols-outlined">send</span>
+                                    </>
+                                )}
                             </motion.button>
                         </form>
                     </motion.div>

@@ -5,7 +5,7 @@
         "logo": "wb_sunny",
         "contact": {
             "email": [
-                "export@shreesunen.com",
+                "export@sunenterprises.ind.in",
                 "info@shreesunen.com"
             ],
             "phone": "+91 9288 449 904",
@@ -159,26 +159,7 @@
     "testimonials": {
         "headline": "Trusted by wholesalers and importers",
         "subheadline": "Building partnerships rooted in quality, transparency, and timely delivery",
-        "items": [
-            {
-                "quote": "Shree Uma Nath Enterprises has been our reliable partner for Basmati exports for over 5 years. Their quality consistency and documentation support make international trade seamless.",
-                "author": "Ahmed Al-Mansouri",
-                "role": "Procurement Manager, UAE",
-                "avatar": "/images/avatar-sarah.jpg"
-            },
-            {
-                "quote": "We've sourced multiple containers of Kabuli chickpeas and the quality has been exceptional every time. Their competitive pricing and flexible payment terms are unmatched.",
-                "author": "Rajesh Kumar",
-                "role": "Director, Food Processing Co.",
-                "avatar": "/images/avatar-james.jpg"
-            },
-            {
-                "quote": "From sample dispatch to final delivery, the entire process was professional. The APEDA certification and SGS inspection reports gave us complete confidence in the product quality.",
-                "author": "Mohammed Khalid",
-                "role": "Importer, Saudi Arabia",
-                "avatar": "/images/avatar-emily.jpg"
-            }
-        ]
+        "items": []
     },
     "stats": {
         "headline": "Legacy of trust and excellence",

@@ -79,7 +79,6 @@ export default function HomePage() {
 
       <Certifications certifications={certificationsData} />
       <PrivateLabeling data={websiteData.privateLabeling} />
-      <Services data={websiteData.services} />
       <Testimonials data={websiteData.testimonials} />
       <Stats data={websiteData.stats} />
     </main>

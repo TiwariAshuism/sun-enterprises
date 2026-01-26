@@ -52,7 +52,7 @@ export default function PrivateLabeling({ data }: { data: PrivateLabelingData })
     };
 
     return (
-        <section ref={ref} className="w-full bg-gradient-to-br from-gray-50 via-white to-yellow-50 dark:from-gray-900 dark:via-background-dark dark:to-gray-800 py-24 px-6">
+        <section ref={ref} className="w-full bg-background-light dark:bg-background-dark py-24 px-6">
             <div className="max-w-[1200px] mx-auto">
                 <motion.div
                     variants={headerVariants}
@@ -99,7 +99,7 @@ export default function PrivateLabeling({ data }: { data: PrivateLabelingData })
                             key={idx}
                             variants={stepVariants}
                             whileHover={{ scale: 1.02, y: -5 }}
-                            className="relative p-8 rounded-2xl bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-300 overflow-hidden group"
+                            className="relative p-8 rounded-2xl bg-card-light dark:bg-gray-800 border border-gray-200 dark:border-gray-700 hover:shadow-2xl transition-all duration-300 overflow-hidden group"
                         >
                             {/* Decorative gradient overlay */}
                             <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

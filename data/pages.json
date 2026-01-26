@@ -12,7 +12,7 @@
         "contactDetails": [
             {
                 "label": "Email",
-                "value": "export@shreesunen.com | info@shreesunen.com"
+                "value": "export@sunenterprises.ind.in | info@shreesunen.com"
             },
             {
                 "label": "WhatsApp",
@@ -44,33 +44,38 @@
             "title": "Request Export Quotation",
             "fields": [
                 {
-                    "name": "fullName",
+                    "name": "name",
                     "label": "Full Name / Company Name",
                     "type": "text",
-                    "placeholder": "Enter your name or company name"
+                    "placeholder": "Enter your name or company name",
+                    "required": true
                 },
                 {
                     "name": "email",
                     "label": "Email Address",
                     "type": "email",
-                    "placeholder": "your@email.com"
+                    "placeholder": "your@email.com",
+                    "required": true
                 },
                 {
                     "name": "phone",
                     "label": "Phone / WhatsApp",
                     "type": "text",
-                    "placeholder": "+XX XXXXX XXXXX"
+                    "placeholder": "+XX XXXXX XXXXX",
+                    "required": false
                 },
                 {
-                    "name": "country",
+                    "name": "company",
                     "label": "Country",
                     "type": "text",
-                    "placeholder": "Your country"
+                    "placeholder": "Your country",
+                    "required": false
                 },
                 {
                     "name": "subject",
                     "label": "Inquiry Type",
                     "type": "select",
+                    "required": false,
                     "options": [
                         "Export Inquiry - Basmati Rice",
                         "Export Inquiry - Non-Basmati Rice",
@@ -89,7 +94,8 @@
                     "label": "Message / Requirements",
                     "type": "textarea",
                     "placeholder": "Please specify: Product type, quantity (MT), packaging preference, delivery terms (FOB/CIF), destination port...",
-                    "rows": 5
+                    "rows": 5,
+                    "required": true
                 }
             ],
             "submitText": "Send Inquiry"
